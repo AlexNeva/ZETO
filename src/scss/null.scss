@@ -57,6 +57,7 @@ input::-ms-clear {
 button {
   cursor: pointer;
   background-color: transparent;
+  color: inherit;
 }
 
 button::-moz-focus-inner {
@@ -71,6 +72,10 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+}
+
+a {
+  color: inherit;
 }
 
 ul li {
