@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   line-height: 1.2;
   background-color: #fff;
-  @include adaptiv-value( font-size, 18, 14, 1);
+  font-size: 14px;
 }
 
 .wrapper {
@@ -14,10 +14,26 @@ body {
   min-height: 100%;
 }
 .container {
-  max-width: 1360px;
-  padding-left: var(--container-side-padding);
-  padding-right: var(--container-side-padding);
+  max-width: $maxWidth + px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: 0 auto;
+  @media (max-width: 992px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  @media (max-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  @media (max-width: 576px) {
+    padding-left:15px;
+    padding-right:15px;
+  }
+  @media (max-width: 375px) {
+    padding-left:10px;
+    padding-right:10px;
+  }
 }
 
 h1 {

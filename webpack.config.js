@@ -69,7 +69,7 @@ module.exports = {
     // Подключаем файл html, стили и скрипты встроятся автоматически
     new HtmlWebpackPlugin({
       title: 'Webpack 4 Starter',
-      template: './src/index.html',
+      template: './src/home.html',
       inject: true,
       minify: {
         removeComments: true,
@@ -79,7 +79,7 @@ module.exports = {
 
     // Кладем стили в отдельный файлик
     new MiniCssExtractPlugin({
-      filename: 'style.css',
+      filename: 'home.css',
     }),
 
     // Копируем картинки
