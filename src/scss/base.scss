@@ -1,9 +1,14 @@
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   background-color: #fff;
   font-size: 14px;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
 }
 
 .wrapper {
@@ -40,6 +45,11 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
 picture {
   display: flex;
   align-items: center;
@@ -56,6 +66,7 @@ picture {
   border: 0 !important;
   clip: rect(0 0 0 0) !important;
 }
+
 
 
 

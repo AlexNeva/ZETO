@@ -1,0 +1,33 @@
+.btn--more {
+  position: relative;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #00B341;
+  background-color: #FFFFFF;
+  border: 1px solid #00B341;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 206px;
+  padding: 12px;
+  text-align: center;
+
+  &::before, &::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 9px;
+    width: calc((100vw - 100%) / 2);
+    border-top: 2px solid #EFEFEF;
+    border-bottom: 2px solid #EFEFEF;
+  }
+
+  &::before {
+    right: 100%;
+
+  }
+  &::after {
+    left: 100%;
+  }
+}
