@@ -17,7 +17,7 @@
   &__cards {
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(auto-fill, 233px);
+    grid-template-columns: repeat(auto-fill, minmax(233px, 1fr));
     grid-auto-rows: 1fr;
     gap: 25px;
     margin-bottom: 25px;
@@ -33,7 +33,6 @@
   &__btn {
     display: block;
     margin: 0 auto;
-    
   }
 }
 
@@ -46,6 +45,8 @@
   button {
     display: flex;
     height: 100%;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 10px 20px 13px;
 

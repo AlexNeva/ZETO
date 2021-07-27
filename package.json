@@ -55,6 +55,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "choices.js": "^9.0.1"
+    "choices.js": "^9.0.1",
+    "swiper": "^6.8.0"
   }
 }

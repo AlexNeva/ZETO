@@ -1,9 +1,12 @@
 .search-parts {
   position: relative;
-  padding-top: 40px;
+  
   background-color: #323232;
   color: #fff;
-
+  background-image: url('../img/search-parts/bg-left.svg'), url('../img/search-parts/bg-right.svg');
+  background-repeat: no-repeat;
+  background-position: 0 7px, 100% 7px;
+  
   &::after {
     content: '';
     position: absolute;
@@ -27,6 +30,11 @@
   // .search-parts__title
 
   &__title {
+    padding-top: 40px;
+    
+    background-color: #323232;
+    max-width: 420px;
+    margin: 0 auto;
     text-align: center;
     color: #fff;
     margin-bottom: 15px;
