@@ -22,25 +22,9 @@ button {
 }
 .container {
   max-width: $maxWidth + px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: var(--container-side-padding);
+  padding-right: var(--container-side-padding);
   margin: 0 auto;
-  @media (max-width: 992px) {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-  @media (max-width: 768px) {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  @media (max-width: 576px) {
-    padding-left:15px;
-    padding-right:15px;
-  }
-  @media (max-width: 375px) {
-    padding-left:10px;
-    padding-right:10px;
-  }
 }
 
 h1 {
