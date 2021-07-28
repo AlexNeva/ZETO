@@ -7,8 +7,9 @@ Swiper.use([Navigation, Pagination]);
 
 export default function initSwipers() {
   const swipers = document.querySelectorAll('.cards-swiper');
+  const productCards = document.querySelectorAll('.product__cards')
 
-  swipers.forEach(swiper => {
+  swipers.forEach((swiper, index) => {
     const swiperCards = new Swiper(swiper, {
       // Optional parameters
       // loop: true,
@@ -18,8 +19,8 @@ export default function initSwipers() {
 
       // Navigation arrows
       navigation: {
-        nextEl: '.cards-swiper-next',
-        prevEl: '.cards-swiper-prev',
+        nextEl: productCards[index].querySelector('.cards-swiper-next'),
+        prevEl: productCards[index].querySelector('.cards-swiper-prev'),
       },
 
     });
