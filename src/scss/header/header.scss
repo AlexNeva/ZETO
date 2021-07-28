@@ -46,6 +46,12 @@
 
       }
     }
+
+    &:nth-child(2) {
+      .header__lang {
+        display: none;
+      }
+    }
   }
 
   // .header__nav
@@ -65,6 +71,9 @@
   // .header__logo
 
   &__logo {
+    img {
+      max-width: 100%;
+    }
   }
 
   // .header__search
@@ -153,6 +162,21 @@
   // .header__info
 
   &__info {
+  }
+
+  &__burger {
+    display: none;
+    width: 40px;
+    height: 25px;
+    margin-right: 25px !important;
+    svg {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .signin-btn {
+    display: none;
   }
 }
 

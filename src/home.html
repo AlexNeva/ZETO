@@ -63,9 +63,26 @@
           </button>
         </div>
         <div class="header__row">
+          <button class="header__burger">
+            <svg viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="21" height="2" rx="1" fill="#E8712D" />
+              <rect x="5" y="5" width="21" height="2" rx="1" fill="#E8712D" />
+              <rect y="10" width="21" height="2" rx="1" fill="#E8712D" />
+            </svg>
+
+          </button>
           <a href="#" class="header__logo">
             <img src="img/header/header-logo.svg" alt="ZETO - логотип компании">
           </a>
+          <div class="header__lang lang">
+            <button class="lang__btn active">
+              RU
+            </button>
+            |
+            <button class="lang__btn">
+              UA
+            </button>
+          </div>
           <div class="header__search search-goods">
             <div class="search-goods__select">
               Выбрать категорию
@@ -75,9 +92,12 @@
 
             </button>
           </div>
+          <button class="signin-btn btn btn--orange" aria-label="Войти или зарегистрироваться">
+
+          </button>
           <div class="header__cart cart">
             Корзина
-            <button class="cart__btn btn btn--green">
+            <button class="cart__btn btn btn--green" aria-label="Посмотреть корзину">
 
             </button>
           </div>
