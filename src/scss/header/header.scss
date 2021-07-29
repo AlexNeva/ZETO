@@ -96,6 +96,7 @@
     
 
     li {
+      flex-shrink: 0;
       position: relative;
       padding-left: 20px;
       padding-right: 20px;
@@ -281,10 +282,11 @@
 }
 
 .cart {
+  position: relative;
   display: flex;
   align-items: center;
   text-transform: uppercase;
-    font-weight: 500;
+  font-weight: 500;
 
   // .cart__btn
 
@@ -297,6 +299,16 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 50% auto;
+  }
+
+  &__body {
+    position: absolute;
+    z-index: 50;
+    top: 100%;
+    right: 0;
+    width: 1000%;
+    max-width: 326px;
+    
   }
 }
 .lang {
@@ -585,5 +597,189 @@
 		&__btn {
 		}
 }
-.btn--more {
+.body-cart {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 179, 65, 0.15), 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  color: #000;
+  padding-top: 16px;
+  padding-bottom: 20px;
+
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  &__count {
+    color: #00B341;
+  }
+
+  &__good {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  &__preview {
+    position: relative;
+    width: 72px;
+    height: 65px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: calc(100% - 8px);
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__info {
+    padding: 0 22px;
+  }
+
+  &__price {
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+
+    span {
+      font-weight: 700;
+      
+  
+      color: #00B341;
+    }
+  }
+
+
+  &__delete {
+    flex-shrink: 0;
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    background: url('../img/cart/delete-icon.svg') 50% 50% no-repeat;
+  }
+
+  &__footer {
+    padding: 0 20px;
+    padding-top: 15px;
+    border-top: 1px solid #EFEFEF;
+  }
+
+
+  &__total {
+    margin-bottom: 16px;
+  }
+
+  &__btn {
+    display: block;
+    text-align: center;
+  }
+
+  &__counter {
+    max-width: 100px;
+  }
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  >span {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  &__sum {
+    font-weight: 700;
+    text-transform: lowercase;
+    font-size: 20px;
+
+    span {
+      font-weight: 700;
+      
+  
+      color: #00B341;
+    }
+
+  }
+
+  
+}
+
+.counter {
+  width: 100%;
+  display: flex;
+  background-color: #EEEFEE;
+
+  
+
+
+  &__btn {
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    
+    text-align: center;
+  }
+
+  &__btn--plus {
+
+  }
+
+  &__btn--minus {
+
+  }
+
+  input {
+    min-width: 0;
+    min-height: 100%;
+    background-color: #EEEFEE;
+    text-align: center;
+    padding: 0 5px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+// Это для браузера Firefox:
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+// Для других
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 }

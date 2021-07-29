@@ -104,6 +104,42 @@
             <button class="cart__btn btn btn--green" aria-label="Посмотреть корзину">
 
             </button>
+            <div class="cart__body body-cart">
+              <h4>
+                (<span class="body-cart__count">1</span>)
+                Товаров в корзине
+              </h4>
+              <div class="body-cart__goods goods-cart">
+                <div class="body-cart__good">
+                  <div class="body-cart__preview">
+                    <img src="img/cart/good-img.jpg" alt=" ">
+                  </div>
+                  <div class="body-cart__info">
+                    <div class="body-cart__price"><span>828</span> грн</div>
+                    <div class="body-cart__counter counter">
+                      <button class="counter__btn counter__btn--minus">-</button>
+                      <input type="number" min="0" name="good-counter" value="0">
+                      <button class="counter__btn counter__btn--plus">+</button>
+                    </div>
+
+                  </div>
+                  <button class="body-cart__delete" aria-label="удалить товар из корзины">
+
+                  </button>
+                </div>
+              </div>
+              <div class="body-cart__footer">
+                <div class="body-cart__total total">
+                  <span>Всего:</span>
+                  <div class="total__sum">
+                    <span>828</span> грн
+                  </div>
+                </div>
+                <a href="#" target="_blank" title="Перейти в корзину" class="body-cart__btn btn btn--green">
+                  В корзину
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
