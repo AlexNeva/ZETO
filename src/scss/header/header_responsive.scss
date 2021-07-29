@@ -4,18 +4,13 @@
     &__row {
       &:nth-child(1) {
         display: none;
-
-        
       }
 
       &:nth-child(2) {
-        justify-content: unset;
+        
         background-color: #404040;
 
-        &::before, &::after {
-          background-color: #404040;
-
-        }
+       
         button {
           margin: 0;
         }
@@ -33,10 +28,6 @@
         padding-bottom: 10px;
         background-color: #323232;
 
-        &::before, &::after {
-          background-color: #323232;
-
-        }
         .header__lang {
           display: none;
         }
@@ -99,7 +90,11 @@
 
 
       &:nth-child(3) {
-        justify-content: center;
+
+        .header__container {
+          justify-content: center;
+        }
+        
       }
     }
 

@@ -3,34 +3,16 @@
   // .header__container
 
   &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   // .header__row
 
   &__row {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    &::before, &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      background-color: #404040;
-      height: 100%;
-      width: calc((100vw - 100% - 17px) / 2);
-      @media (pointer:coarse){
-        width: calc((100vw - 100%) / 2);
-      }
-      
-    }
-    &::before {
-      right: 100%;
-    }
-    &::after {
-      left: 100%;
-    }
+    
 
     &:nth-child(odd) {
       
@@ -41,10 +23,6 @@
       padding-top: 20px;
       padding-bottom: 20px;
       background-color: #323232;
-      &::before, &::after {
-        background-color: #323232;
-
-      }
     }
 
     &:nth-child(2) {
