@@ -13,8 +13,9 @@ export default function initSwipers() {
     const swiperCards = new Swiper(swiper, {
       // Optional parameters
       // loop: true,
-      // slidesPerView: 5,
-      width: 261,
+      slidesPerView: 2,
+      // width: 'auto',
+
       // spaceBetween: 25,
 
       // Navigation arrows
@@ -22,6 +23,14 @@ export default function initSwipers() {
         nextEl: productCards[index].querySelector('.cards-swiper-next'),
         prevEl: productCards[index].querySelector('.cards-swiper-prev'),
       },
+
+      breakpoints: {
+        // when window width is >= 320px
+        577: {
+          // slidesPerView: 5,
+          width: 522,
+        },
+      }
 
     });
   })

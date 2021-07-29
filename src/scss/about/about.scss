@@ -15,20 +15,23 @@
         position: absolute;
         top: 7px;
         width: 37%;
-        height: 70px;
-        background-image: url('../img/about/bg.svg');
-        background-repeat: no-repeat;
+        height: 72px;
+        
+        background-repeat: repeat-x;
+
       }
     
       &::before {
         left: 0;
-        background-position: 0 100%;
+        background-position: 100% 0;
+        background-image: url('../img/about/bg-left.png');
       }
       
       
       &::after {
         right: 0;
         background-position: 0 0;
+        background-image: url('../img/about/bg-left.png');
       }
     }
 

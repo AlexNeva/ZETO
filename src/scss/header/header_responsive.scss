@@ -46,6 +46,7 @@
       background-image: url('../img/header/sign-in-icon.svg');
       background-repeat: no-repeat;
       background-position: 50% 50%;
+      background-size: 45% auto;
       margin-right: 10px !important;
     }
 
@@ -107,15 +108,15 @@
       height: 30px;
     }
 
-    .search-goods__btn {
-      background-image: url('../img/header/search-icon-mob.svg');
-    }
-    .signin-btn {
-      background-image: url('../img/header/sign-in-icon-mob.svg');
-    }
-    .cart__btn {
-      background-image: url('../img/header//cart-icon-mob.svg');
-    }
+    // .search-goods__btn {
+    //   background-image: url('../img/header/search-icon-mob.svg');
+    // }
+    // .signin-btn {
+    //   background-image: url('../img/header/sign-in-icon-mob.svg');
+    // }
+    // .cart__btn {
+    //   background-image: url('../img/header//cart-icon-mob.svg');
+    // }
 
 
     &__logo {

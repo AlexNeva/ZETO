@@ -1,6 +1,6 @@
 .product {
-  padding-top: 40px;
- 
+  margin-bottom: 40px;
+
   // .find-parts__container
 
   &__container {
@@ -34,6 +34,8 @@
       right: 0;
     }
   }
+
+  
   
 }
 
@@ -59,6 +61,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      width: calc(100% - 8px);
+      height: 100%;
       object-fit: contain;
 
     }
