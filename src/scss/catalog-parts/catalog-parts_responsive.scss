@@ -1,0 +1,34 @@
+@media (max-width: 1440px) {
+  .menu-parts {
+  
+  
+  
+    &__submenu {
+      grid-template-columns:1fr;
+    }
+
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .menu-parts {
+    &__submenu {
+      display: none;
+    }
+  }
+}
+
+
+@media (max-width: 576px) {
+  .catalog-parts {
+
+    &__cards {
+      display: none;
+    }
+
+    &__btn {
+      display: none;
+    }
+  }
+}

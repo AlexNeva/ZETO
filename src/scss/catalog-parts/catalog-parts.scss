@@ -26,6 +26,55 @@
   // .catalog-parts__card
 
   &__card {
+    
+    transform-origin: left top;
+    transition: all 0.2s ease-in-out 0s;
+
+    
+    &.open {
+      transform: scale(1.25);
+      z-index: 50;
+      overflow: unset;
+      
+
+      button {
+        position: relative;
+        z-index: 10;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        padding-right: 20px;
+
+        .card-parts__icon {
+          background-color: #00B341;
+          color: #fff;
+
+
+          svg {
+            transform: rotate(90deg);
+          }
+        }
+       
+      }
+     
+      .card-parts__title {
+        font-size: 12px;
+      }
+      .mega-m__submenu__submenu {
+        a {
+          font-size: 12px;
+          
+        }
+      }
+      .mega-m {
+        visibility: visible;
+        opacity: 1;
+        a {
+          font-size: 12px;
+          
+        }
+      }
+     
+    }
   }
 
   // .catalog-parts__btn
@@ -37,10 +86,13 @@
 }
 
 .card-parts {
+  position: relative;
+  z-index: 1;
   width: 100%;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
+  overflow: hidden;
 
   button {
     display: flex;
@@ -49,6 +101,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 10px 20px 13px;
+
+    
+    
+    
 
 
     &::before {
@@ -80,6 +136,7 @@
     text-align: left;
     font-weight: 500;
     margin-right: 10px;
+    
   }
 
   // .card-parts__icon
@@ -94,5 +151,9 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
+    transition: all 0.2s ease-in-out 0s;
   }
+
 }
+
+
