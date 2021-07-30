@@ -12,8 +12,9 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="header__container container">
-        <div class="header__row">
+
+      <div class="header__row">
+        <div class="header__container container">
           <nav class="header__nav nav">
             <ul>
               <li>
@@ -62,7 +63,10 @@
             Личный кабинет
           </button>
         </div>
-        <div class="header__row">
+
+      </div>
+      <div class="header__row">
+        <div class="header__container container">
           <button class="header__burger">
             <svg viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="21" height="2" rx="1" fill="#E8712D" />
@@ -84,25 +88,150 @@
             </button>
           </div>
           <div class="header__search search-goods">
-            <div class="search-goods__select">
-              Выбрать категорию
+            <div class="search-goods__menu">
+              <button class="search-goods__label">
+                Выбрать категорию
+              </button>
+              <div class="search-goods__categories">
+                <button class="search-goods__category">
+                  категорию
+                </button>
+                <button class="search-goods__category">
+                  подкатегорию
+                </button>
+                <button class="search-goods__category">
+                  Бренд
+                </button>
+                <button class="search-goods__category">
+                  Серию
+                </button>
+                <button class="search-goods__category">
+                  Подсерию
+                </button>
+                <button class="search-goods__category">
+                  Модель
+                </button>
+
+              </div>
             </div>
             <input type="text" name="search-goods" class="search-goods__input" placeholder="Поиск товара">
             <button class="search-goods__btn btn btn--green">
 
             </button>
+            <div class="search-goods__submenu submenu-search open">
+              <div class="submenu-search__input">
+                <input id="submenu-search" type="text" name="submenu-search" placeholder="Поиск">
+                <label for="submenu-search"></label>
+              </div>
+              <div class="submenu-search__menu">
+                <ul>
+                  <li><a href="#" target="_blank">Ноутбуки</a></li>
+                  <li><a href="#" target="_blank">Планшеты</a></li>
+                  <li><a href="#" target="_blank">Принтеры</a></li>
+                  <li><a href="#" target="_blank">Мониторы</a></li>
+                  <li><a href="#" target="_blank">Электро-мотоциклы</a></li>
+                  <li><a href="#" target="_blank">Игровые консоли</a></li>
+                  <li><a href="#" target="_blank">Электро-самокаты</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#" target="_blank">Ноутбуки</a></li>
+                  <li><a href="#" target="_blank">Планшеты</a></li>
+                  <li><a href="#" target="_blank">Принтеры</a></li>
+                  <li><a href="#" target="_blank">Мониторы</a></li>
+                  <li><a href="#" target="_blank">Электро-мотоциклы</a></li>
+                  <li><a href="#" target="_blank">Игровые консоли</a></li>
+                  <li><a href="#" target="_blank">Электро-самокаты</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#" target="_blank">Ноутбуки</a></li>
+                  <li><a href="#" target="_blank">Планшеты</a></li>
+                  <li><a href="#" target="_blank">Принтеры</a></li>
+                  <li><a href="#" target="_blank">Мониторы</a></li>
+                  <li><a href="#" target="_blank">Электро-мотоциклы</a></li>
+                  <li><a href="#" target="_blank">Игровые консоли</a></li>
+                  <li><a href="#" target="_blank">Электро-самокаты</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#" target="_blank">Ноутбуки</a></li>
+                  <li><a href="#" target="_blank">Планшеты</a></li>
+                  <li><a href="#" target="_blank">Принтеры</a></li>
+                  <li><a href="#" target="_blank">Мониторы</a></li>
+                  <li><a href="#" target="_blank">Электро-мотоциклы</a></li>
+                  <li><a href="#" target="_blank">Игровые консоли</a></li>
+                  <li><a href="#" target="_blank">Электро-самокаты</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#" target="_blank">Ноутбуки</a></li>
+                  <li><a href="#" target="_blank">Планшеты</a></li>
+                  <li><a href="#" target="_blank">Принтеры</a></li>
+                  <li><a href="#" target="_blank">Мониторы</a></li>
+                  <li><a href="#" target="_blank">Электро-мотоциклы</a></li>
+                  <li><a href="#" target="_blank">Игровые консоли</a></li>
+                  <li><a href="#" target="_blank">Электро-самокаты</a></li>
+                </ul>
+
+              </div>
+              <button class="submenu-search__close" aria-label="свернуть подменю">
+
+              </button>
+            </div>
           </div>
           <button class="signin-btn btn btn--orange" aria-label="Войти или зарегистрироваться">
 
           </button>
           <div class="header__cart cart">
-            Корзина
+            <div class="cart__label">
+              Корзина
+              <span>
+                1 товар - <strong>828 грн</strong>
+              </span>
+            </div>
+
             <button class="cart__btn btn btn--green" aria-label="Посмотреть корзину">
 
             </button>
+            <div class="cart__body body-cart">
+              <h4>
+                (<span class="body-cart__count">1</span>)
+                Товаров в корзине
+              </h4>
+              <div class="body-cart__goods goods-cart">
+                <div class="body-cart__good">
+                  <div class="body-cart__preview">
+                    <img src="img/cart/good-img.jpg" alt=" ">
+                  </div>
+                  <div class="body-cart__info">
+                    <div class="body-cart__price"><span>828</span> грн</div>
+                    <div class="body-cart__counter counter">
+                      <button class="counter__btn counter__btn--minus">-</button>
+                      <input type="number" min="0" name="good-counter" value="0">
+                      <button class="counter__btn counter__btn--plus">+</button>
+                    </div>
+
+                  </div>
+                  <button class="body-cart__delete" aria-label="удалить товар из корзины">
+
+                  </button>
+                </div>
+              </div>
+              <div class="body-cart__footer">
+                <div class="body-cart__total total">
+                  <span>Всего:</span>
+                  <div class="total__sum">
+                    <span>828</span> грн
+                  </div>
+                </div>
+                <a href="#" target="_blank" title="Перейти в корзину" class="body-cart__btn btn btn--green">
+                  В корзину
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="header__row">
+
+      </div>
+      <div class="header__row">
+        <div class="header__container container">
           <button class="header__catalog btn btn--orange">
             Каталог товаров
           </button>
@@ -138,15 +267,120 @@
             </button>
           </div>
           <div class="header__info info-header">
-            <button class="info-header__btn info-header__btn--terms">
-              Условия возврата
-            </button>
-            <button class="info-header__btn info-header__btn--safe">
-              Безопасная сделка
-            </button>
+            <div class="info-header__btn info-header__btn--terms">
+              <button>Условия возврата</button>
+              <div class="info-header__body body-info">
+                <h3>
+                  Как работают условия возврата
+                </h3>
+                <div class="body-info__row">
+                  <div class="body-info__column">
+                    <div class="body-info__image">
+                      <img src="img/header/body-info-img-1.jpg" alt=" ">
+
+                    </div>
+                    <div class="body-info__descr">
+                      <p>
+                        Отсутствие у потребителя товарного чека или кассового чека либо иного подтверждающего оплату
+                        товара документа не лишает его возможности ссылаться на свидетельские показания.
+                      </p>
+                      <p>
+                        Перечень непродовольственных товаров надлежащего качества, не подлежащих возврату или обмену
+                        на
+                        аналогичный товар утверждается Правительством РФ.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="body-info__column">
+                    <ul>
+                      <li>
+                        <h4>
+                          ОБМЕН/ВОЗВРАТ
+                        </h4>
+                        <p>
+                          В течении 14 дней с момента покупки
+                        </p>
+                      </li>
+                      <li>
+                        <h4>
+                          ОБМЕН/ВОЗВРАТ
+                        </h4>
+                        <p>
+                          В течении 14 дней с момента покупки
+                        </p>
+                      </li>
+                      <li>
+                        <h4>
+                          ОБМЕН/ВОЗВРАТ
+                        </h4>
+                        <p>
+                          В течении 14 дней с момента покупки
+                        </p>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+                <a href="#" target="_blank" class="catalog-parts__btn btn--more">
+                  Подробнее
+                </a>
+              </div>
+            </div>
+
+            <div class="info-header__btn info-header__btn--safe">
+              <button>Безопасная сделка</button>
+              <div class="info-header__body body-info">
+                <h3>
+                  Как работает безопасная сделка
+                </h3>
+                <div class="body-info__row">
+                  <div class="body-info__column">
+                    <div class="body-info__image">
+                      <img src="img/header/body-info-img-1.jpg" alt=" ">
+
+                    </div>
+                    <div class="body-info__descr">
+                      <p>
+                        Отсутствие у потребителя товарного чека или кассового чека либо иного подтверждающего оплату
+                        товара документа не лишает его возможности ссылаться на свидетельские показания.
+                      </p>
+                      <p>
+                        Перечень непродовольственных товаров надлежащего качества, не подлежащих возврату или обмену
+                        на
+                        аналогичный товар утверждается Правительством РФ.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="body-info__column">
+                    <ul>
+                      <li>
+                        <span>Покупатель делает заказ</span>
+                      </li>
+                      <li>
+                        <span>На счету продавца фиксируется сумма равная стоимости заказанного товара</span>
+                      </li>
+                      <li>
+                        <span>Продавец отправляет заказ</span>
+                      </li>
+                      <li>
+                        <span>Получатель получает заказа</span>
+                      </li>
+                      <li>
+                        <span>Деньги на счету продавца разблокированы</spa>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="#" target="_blank" class="catalog-parts__btn btn--more">
+                  Подробнее
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
+
     </header>
     <main class="main">
       <section class='catalog-parts'>
