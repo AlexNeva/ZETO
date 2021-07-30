@@ -9,6 +9,8 @@ initSearchPartsSelects();
 initSwipers();
 header.actionCart('open');
 header.openSearch();
+header.openSubMenu();
+
 
 
 console.log('Works!');
