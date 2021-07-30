@@ -41,7 +41,7 @@ function openSubMenu() {
 
 
   searchSubMenuTriggers.forEach(el => {
-    el.onclick = () => {
+    el.onmouseenter = () => {
       submenu.classList.remove('open')
 
       setTimeout(function () {
@@ -53,6 +53,7 @@ function openSubMenu() {
   });
 
 }
+
 
 
 export default {

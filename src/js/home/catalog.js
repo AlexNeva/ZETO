@@ -24,7 +24,7 @@ function hoveredItems() {
 
     megaItems.forEach((item, index) => {
 
-      item.onmouseenter = () => {
+      item.onmouseenter = (e) => {
 
         megaItems.forEach(item => {
           item.classList.remove('active')
@@ -47,7 +47,9 @@ function hoveredItems() {
 
     })
 
-    megaM.onmouseleave = () => {
+    mega.onmouseleave = () => {
+      console.log('ddfg');
+
       megaItems.forEach(item => {
         item.classList.remove('active')
       })

@@ -58,7 +58,7 @@
               </li>
             </ul>
           </nav>
-          <button class="header__signin btn btn--orange">
+          <button class="header__signin popup__open btn btn--orange" data-target="auth">
             Личный кабинет
           </button>
         </div>
@@ -231,7 +231,7 @@
       </div>
       <div class="header__row">
         <div class="header__container container">
-          <button class="header__catalog btn btn--orange">
+          <button class="header__catalog popup__open btn btn--orange" data-target="catalog">
             Каталог товаров
           </button>
           <ul class="header__phones">
@@ -2033,13 +2033,13 @@
         </div>
       </div>
     </footer>
-    <div class="catalog popup">
+    <div class="catalog popup" id="catalog">
 
       <div class="catalog__container container">
 
-        <div class="catalog__body">
+        <div class="catalog__body popup__body">
           <div class="catalog__header">
-            <button class="catalog__close" aria-label="Зыкрыть каталог">
+            <button class="catalog__close popup__close" aria-label="Зыкрыть каталог">
 
             </button>
             <a href="#" class="catalog__logo">
@@ -2067,7 +2067,7 @@
               <ul class="mega-m__menu" data-simplebar>
                 <li>
                   <a href="#">
-                    <span class="mega-m__title">Процессоры</span>
+                    <span class="mega-m__title">Запчасти для ноутбука</span>
                     <span class="mega-m__icon">
                       <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -2080,7 +2080,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <span class="mega-m__title">Процессоры</span>
+                    <span class="mega-m__title">Запчасти для планшетов</span>
                     <span class="mega-m__icon">
                       <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -2093,7 +2093,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <span class="mega-m__title">Процессоры</span>
+                    <span class="mega-m__title">Запчасти для принтеров</span>
                     <span class="mega-m__icon">
                       <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -2106,7 +2106,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <span class="mega-m__title">Процессоры</span>
+                    <span class="mega-m__title">Запчасти для мониторов</span>
                     <span class="mega-m__icon">
                       <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -2119,7 +2119,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <span class="mega-m__title">Процессоры</span>
+                    <span class="mega-m__title">Запчасти для ноутбука</span>
                     <span class="mega-m__icon">
                       <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -2132,7 +2132,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <span class="mega-m__title">Процессоры</span>
+                    <span class="mega-m__title">Запчасти для планшетов</span>
                     <span class="mega-m__icon">
                       <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -2145,7 +2145,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <span class="mega-m__title">Процессоры</span>
+                    <span class="mega-m__title">Запчасти для принтеров</span>
                     <span class="mega-m__icon">
                       <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -2158,7 +2158,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    <span class="mega-m__title">Процессоры</span>
+                    <span class="mega-m__title">Запчасти для мониторов</span>
                     <span class="mega-m__icon">
                       <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -2349,56 +2349,142 @@
             </div>
             <div class="catalog__menu">
               <h4>Меню</h4>
-              <nav class="header__nav nav">
+              <nav class="catalog__nav nav">
                 <ul>
                   <li>
                     <a href="#">
                       Доставка
+                      <span class="nav__icon">
+                        <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.333985 7.05666L3.63181 4L0.333984 0.943344L1.35172 -4.44868e-08L5.66732 4L1.35172 8L0.333985 7.05666Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       Оплата
+                      <span class="nav__icon">
+                        <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.333985 7.05666L3.63181 4L0.333984 0.943344L1.35172 -4.44868e-08L5.66732 4L1.35172 8L0.333985 7.05666Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       Гарантия
+                      <span class="nav__icon">
+                        <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.333985 7.05666L3.63181 4L0.333984 0.943344L1.35172 -4.44868e-08L5.66732 4L1.35172 8L0.333985 7.05666Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       Статьи и Акции
+                      <span class="nav__icon">
+                        <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.333985 7.05666L3.63181 4L0.333984 0.943344L1.35172 -4.44868e-08L5.66732 4L1.35172 8L0.333985 7.05666Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       Отзывы
+                      <span class="nav__icon">
+                        <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.333985 7.05666L3.63181 4L0.333984 0.943344L1.35172 -4.44868e-08L5.66732 4L1.35172 8L0.333985 7.05666Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       Сервисный центр
+                      <span class="nav__icon">
+                        <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.333985 7.05666L3.63181 4L0.333984 0.943344L1.35172 -4.44868e-08L5.66732 4L1.35172 8L0.333985 7.05666Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       Вакансии
+                      <span class="nav__icon">
+                        <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.333985 7.05666L3.63181 4L0.333984 0.943344L1.35172 -4.44868e-08L5.66732 4L1.35172 8L0.333985 7.05666Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                   <li>
                     <a href="#">
                       КОНТАКТЫ
+                      <span class="nav__icon">
+                        <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M0.333985 7.05666L3.63181 4L0.333984 0.943344L1.35172 -4.44868e-08L5.66732 4L1.35172 8L0.333985 7.05666Z"
+                            fill="currentColor" />
+                        </svg>
+                      </span>
                     </a>
                   </li>
                 </ul>
               </nav>
             </div>
-
           </div>
         </div>
       </div>
 
+    </div>
+    <div class="autorization popup" id="auth">
+      <div class="autorization__container container">
+        <div class="autorization__wrapper">
+          <button class="autorization__close popup__close" aria-label="зыкрыть окно"></button>
+          <div class="autorization__body popup__body">
+
+            <h4>
+              Войти в кабинет
+            </h4>
+            <form action="#" class="autorization__form">
+              <div class="autorization__control">
+                <label for="user-login">Логин:</label>
+                <input id="user-login" type="text" name="user-login">
+              </div>
+              <div class="autorization__control">
+                <label for="user-password">Пароль:</label>
+                <input id="user-password" type="password" name="user-password">
+              </div>
+              <div class="autorization__control autorization__control--links">
+                <a href="#" target="_blank">Забыли пароль?</a>
+                <a href="#" target="_blank">Регистрация?</a>
+              </div>
+              <button type="submit" class="btn btn--green">
+                Войти
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </body>
