@@ -157,3 +157,10 @@
   }
 }
 
+@media (max-width: 768px) {
+  .search-parts {
+    &__form {
+      gap: 17px;
+    }
+  }
+}
