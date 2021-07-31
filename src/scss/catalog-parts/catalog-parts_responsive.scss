@@ -22,13 +22,6 @@
 
 @media (max-width: 576px) {
   .catalog-parts {
-
-    &__cards {
-      display: none;
-    }
-
-    &__btn {
-      display: none;
-    }
+    display: none;
   }
 }

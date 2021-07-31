@@ -223,3 +223,29 @@
     z-index: 1000;
   }
 }
+
+
+
+.accordion__control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: transparent;
+}
+
+.accordion__content {
+  box-sizing: content-box;
+  padding: 0 10px;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-out 0s;
+  will-change: max-height;
+}
+
+.accordion__item.open .accordion__content {
+  padding: 10px;
+  overflow: unset;
+  opacity: 1;
+}

@@ -3,10 +3,10 @@ import '../scss/home.scss';
 import header from './home/header.js'
 import initSearchPartsSelects from './home/search-parts.js'
 import initSwipers from './home/swiper-cards.js'
-import initCustomScrollbar from './home/custom-scroll.js'
 import catalog from './home/catalog.js'
 import popup from './home/popups.js'
 import dataDa from './home/dynamicAdapt.js'
+import initAccordions from './home/accordion.js'
 
 
 initSearchPartsSelects();
@@ -18,6 +18,7 @@ catalog.toClickCards();
 popup.openPopup();
 popup.closePopup();
 dataDa();
+initAccordions();
 
 
 
