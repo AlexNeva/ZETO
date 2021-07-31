@@ -8,7 +8,7 @@
   <title>ZETO</title>
 <link href="home.css" rel="stylesheet"></head>
 
-<body class="">
+<body>
   <div class="wrapper">
     <header class="header">
       <div class="header__row">
@@ -92,51 +92,22 @@
               </button>
               <div class="search-goods__categories">
                 <select name="choice-category" class="search-goods__category">
-                  <option value="all">
-                    категорию
-                  </option>
-                  <option value="notebooks">
-                    Ноутбуки
-                  </option>
-                  <option data-imgsrc="img/select-menu-icons/tablet.svg" value="tablet">Планшеты</option>
-                  <option data-imgsrc="img/select-menu-icons/printer.svg" value="printers">Принтеры</option>
-                  <option data-imgsrc="img/select-menu-icons/display.svg" value="displays">Мониторы</option>
-                  <option data-imgsrc="img/select-menu-icons/display.svg" value="displays">Мониторы</option>
-                  <option data-imgsrc="img/select-menu-icons/el-moto.svg" value="electric-motorcycles">
-                    Электро-мотоциклы</option>
-                  <option data-imgsrc="img/select-menu-icons/game-console.svg" value="game-consoles">Игровые консоли
-                  </option>
-                  <option data-imgsrc="img/select-menu-icons/el-scooter.svg" value="electric-scooters">Электро-самокаты
-                  </option>
-                  <option data-imgsrc="img/select-menu-icons/notebook.svg" value="notebooks">Ноутбуки</option>
 
                 </select>
                 <select name="choice-subcategory" class="search-goods__category">
-                  <option value="all">
-                    подкатегорию
-                  </option>
+
                 </select>
                 <select name="choice-brend" class="search-goods__category">
-                  <option value="all">
-                    Бренд
-                  </option>
 
                 </select>
                 <select name="choice-series" class="search-goods__category">
-                  <option value="all">
-                    Серию
-                  </option>
+
                 </select>
                 <select name="choice-subseries" class="search-goods__category">
-                  <option value="all">
-                    Подсерию
-                  </option>
 
                 </select>
                 <select name="choice-model" class="search-goods__category">
-                  <option value="all">
-                    Модель
-                  </option>
+
                 </select>
 
               </div>
@@ -962,7 +933,7 @@
           <form action="#" class="search-parts__form">
             <div class="search-parts__control">
               <label for="category">Введите категорию</label>
-              <select name="category" id="category">
+              <select class="search-parts__select" name="category" id="category">
                 <option value="all">Все</option>
                 <option value="notebook">Ноутбуки</option>
                 <option value="tablets">Планшеты</option>
@@ -972,31 +943,31 @@
             </div>
             <div class="search-parts__control">
               <label for="sub-category">Введите подкатегорию</label>
-              <select name="sub-category" id="sub-category">
+              <select class="search-parts__select" name="sub-category" id="sub-category">
                 <option value="all">Все</option>
               </select>
             </div>
             <div class="search-parts__control">
               <label for="brend">Введите бренд</label>
-              <select name="brend" id="brend">
+              <select class="search-parts__select" name="brend" id="brend">
                 <option value="all">Все</option>
               </select>
             </div>
             <div class="search-parts__control">
               <label for="series">Введите серию</label>
-              <select name="series" id="series">
+              <select class="search-parts__select" name="series" id="series">
                 <option value="all">Все</option>
               </select>
             </div>
             <div class="search-parts__control">
               <label for="sub-series">Введите подсерию</label>
-              <select name="sub-series" id="sub-series">
+              <select class="search-parts__select" name="sub-series" id="sub-series">
                 <option value="all">Все</option>
               </select>
             </div>
             <div class="search-parts__control">
               <label for="model">Введите модель</label>
-              <select name="model" id="model">
+              <select class="search-parts__select" name="model" id="model">
                 <option value="all">Все</option>
               </select>
             </div>
