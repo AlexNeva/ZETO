@@ -2,6 +2,7 @@ import '../scss/home.scss';
 
 import header from './home/header.js'
 import initSearchPartsSelects from './home/search-parts.js'
+import headerSelect from './home/header-select'
 import initSwipers from './home/swiper-cards.js'
 import megamenu from './home/megamenu.js'
 import popup from './home/popups.js'
@@ -18,6 +19,7 @@ popup.openPopup();
 popup.closePopup();
 dataDa();
 initAccordions();
+headerSelect();
 
 
 

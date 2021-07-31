@@ -1,9 +1,9 @@
 import Choices from "choices.js";
-import SimpleBar from 'simplebar'; 'simplebar';
+import SimpleBar from 'simplebar';
 
 
 export default function initSearchPartsSelects() {
-  const selects = document.querySelectorAll('select');
+  const selects = document.querySelectorAll('.search-parts__select');
 
   selects.forEach(select => {
     const choices = new Choices(select, {
@@ -20,12 +20,12 @@ export default function initSearchPartsSelects() {
 
 
     select.addEventListener('showDropdown', () => {
-      console.log('dfdf');
+
       simplebar = new SimpleBar(list);
 
     })
     select.addEventListener('hideDropdown', () => {
-      console.log('dfdf');
+
       simplebar.unMount()
 
     })
