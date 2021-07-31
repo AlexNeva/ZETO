@@ -1,17 +1,4 @@
-function toClickCards() {
-  const cards = document.querySelectorAll('.catalog-parts__card');
-  cards.forEach(card => {
-    card.onclick = (e) => {
-      if (e.target.closest('.catalog-parts__card > button')) {
-        cards.forEach(card => {
-          card.classList.remove('open')
-        })
-        card.classList.add('open');
-      }
-    }
-  })
 
-}
 function hoveredItems() {
 
   const megaM = document.querySelectorAll('.mega-m');
@@ -64,5 +51,4 @@ function hoveredItems() {
 
 export default {
   hoveredItems,
-  toClickCards,
 }

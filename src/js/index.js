@@ -3,7 +3,7 @@ import '../scss/home.scss';
 import header from './home/header.js'
 import initSearchPartsSelects from './home/search-parts.js'
 import initSwipers from './home/swiper-cards.js'
-import catalog from './home/catalog.js'
+import megamenu from './home/megamenu.js'
 import popup from './home/popups.js'
 import dataDa from './home/dynamicAdapt.js'
 import initAccordions from './home/accordion.js'
@@ -13,8 +13,7 @@ initSearchPartsSelects();
 initSwipers();
 header.actionCart('open');
 header.openSearch();
-catalog.hoveredItems();
-catalog.toClickCards();
+megamenu.hoveredItems();
 popup.openPopup();
 popup.closePopup();
 dataDa();
