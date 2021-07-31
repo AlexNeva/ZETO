@@ -225,21 +225,7 @@
     }
   }
 }
-.btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 13px 16px;
-  color: #fff;
-}
-.btn--green {
-  border-radius: 3px;
-  background-color: #00B341;
-}
-.btn--orange {
-  background-color: #E8712D;
-}
+
 .search-goods {
   position: relative;
   display: flex;
@@ -287,6 +273,7 @@
     padding-left: 11px;
     height: 40px;
     min-width: 0;
+    
 
     &::placeholder {
       font-size: 14px;

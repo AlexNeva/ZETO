@@ -45,10 +45,6 @@
     background-image: url('../img/popups/popup-close.svg');
   }
 
-  // .catalog__logo
-
-  &__logo {
-  }
 
   // .catalog__lang
 
@@ -134,27 +130,30 @@
           padding-left: 13px;
           padding-top: 8px;
           padding-bottom: 8px;
+
           &::before {
-            content: '';
-            position: unset;
-            transform: translate(0, 0);
-            flex-shrink: 0;
-            width: 25px;
-            height: 25px;
-            background-position: 50% 50%;
-            background-repeat: no-repeat;
-            background-color: transparent;
-            
-            
+            display: none;
           }
         }
 
-        @for $i from 1 through 8 {
-          &:nth-child(#{$i}) a::before {
-            background-image: url('../img/popups/popup-ic-#{$i}.svg');
-          }
-          
-        }
+      }
+    }
+
+    &__img {
+      position: relative;
+      flex-shrink: 0;
+      width: 26px;
+      height: 25px;
+     
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
       }
     }
 
@@ -226,27 +225,6 @@
       border-radius: 3px;
       transition: all 0.2s ease-in-out 0s;
     }
-  }
-}
-.popup {
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  visibility: hidden;
-  opacity: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  transition: all 0.2s ease-in-out 0s;
-  // .popup__wrapper
-
-  
-
-  &.show {
-    visibility: visible;
-    opacity: 1;
-    z-index: 1000;
   }
 }
 
