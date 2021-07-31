@@ -55,14 +55,6 @@
     }
 
     &__search {
-      background-color: unset;
-      flex: unset;
-      
-      margin-right: 10px;
-      input, .search-goods__menu {
-        display: none;
-      }
-
       
     }
 
@@ -86,6 +78,10 @@
         }
       }
     }
+
+    .search-trigger {
+      display: block;
+    }
   }
 }
 
@@ -107,7 +103,7 @@
       display: none;
     }
 
-    .search-goods__btn, .signin-btn, .cart__btn {
+    .search-goods__btn, .signin-btn, .cart__btn, .search-trigger {
       width: 30px;
       height: 30px;
     }
@@ -138,7 +134,10 @@
       
       &:nth-child(2) {
         padding-top: 6px;
-      padding-bottom: 6px;
+        padding-bottom: 6px;
+        .search-trigger {
+          margin-left: auto;
+        }
         .header__lang {
           display: none;
         }
@@ -186,6 +185,7 @@
       width: 26px;
       height: 12px;
     }
+    
   }
 }
 

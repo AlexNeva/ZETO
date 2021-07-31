@@ -34,8 +34,6 @@ function openSearch() {
 }
 
 
-
-
 export default {
   actionCart,
   openSearch,

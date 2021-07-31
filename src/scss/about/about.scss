@@ -95,3 +95,11 @@
   }
 }
 
+@media (max-width: 576px) {
+  .about {
+    &__descr {
+      padding: 15px 20px 5px 20px;
+    }
+  }
+}
+

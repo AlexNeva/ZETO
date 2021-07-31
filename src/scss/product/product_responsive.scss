@@ -59,6 +59,11 @@
       .cards-swiper-next {
         right: 10px;
       }
+
+      .cards-swiper-prev, .cards-swiper-next {
+        width: 30px;
+        height: 30px;
+      }
     }
 
     .btn--more {

@@ -7,7 +7,13 @@ function closePopup() {
     popup.onclick = (e) => {
       if (!e.target.closest('.popup__body') || e.target.closest('.popup__close')) {
         popup.classList.remove('show');
-        body.classList.remove('lock');
+
+        setTimeout(() => {
+          body.style.paddingRight = 0;
+          popup.style.paddingRight = 0;
+          body.classList.remove('lock');
+        }, 300)
+
       }
     }
   })
@@ -23,6 +29,9 @@ function openPopup() {
 
     openTrigger.forEach(trigger => {
       trigger.onclick = () => {
+        const paddingOffset = window.innerWidth - document.body.offsetWidth + 'px';
+        body.style.paddingRight = paddingOffset;
+        popup.style.paddingRight = paddingOffset;
         popup.classList.add('show');
         body.classList.add('lock');
       }

@@ -6,10 +6,10 @@ import initSwipers from './home/swiper-cards.js'
 import initCustomScrollbar from './home/custom-scroll.js'
 import catalog from './home/catalog.js'
 import popup from './home/popups.js'
+import dataDa from './home/dynamicAdapt.js'
 
 
 initSearchPartsSelects();
-// initCustomScrollbar();
 initSwipers();
 header.actionCart('open');
 header.openSearch();
@@ -17,6 +17,7 @@ catalog.hoveredItems();
 catalog.toClickCards();
 popup.openPopup();
 popup.closePopup();
+dataDa();
 
 
 
