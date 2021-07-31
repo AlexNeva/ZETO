@@ -31,7 +31,7 @@
     transition: all 0.3s ease-in-out 0s;
 
     
-    &:hover {
+    &:hover, &:focus {
       transform: scale(1.25);
       padding-right: 20px;
       z-index: 50;
@@ -42,8 +42,6 @@
       
 
       button {
-       
-
         .card-parts__icon {
           background-color: #00B341;
           color: #fff;
