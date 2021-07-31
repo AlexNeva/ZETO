@@ -10,7 +10,6 @@
         
         background-color: #404040;
 
-       
         button {
           margin: 0;
         }
@@ -36,6 +35,11 @@
 
     &__cart {
       font-size: 0;
+      margin-left: unset;
+    }
+    .cart__label {
+      padding-right: 0;
+      display: none;
     }
 
     .signin-btn {

@@ -9,11 +9,10 @@ import popup from './home/popups.js'
 
 
 initSearchPartsSelects();
+// initCustomScrollbar();
 initSwipers();
 header.actionCart('open');
 header.openSearch();
-header.openSubMenu();
-initCustomScrollbar();
 catalog.hoveredItems();
 catalog.toClickCards();
 popup.openPopup();
@@ -33,7 +32,6 @@ window.onclick = (e) => {
   }
   if (!e.target.closest('.header__search')) {
     document.querySelector('.search-goods').classList.remove('open')
-    document.querySelector('.submenu-search').classList.remove('open')
   }
   if (!e.target.closest('.catalog-parts__card')) {
     document.querySelectorAll('.catalog-parts__card').forEach(el => {
