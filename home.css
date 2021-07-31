@@ -1231,50 +1231,43 @@ picture {
     margin-bottom: 25px; }
   .catalog-parts__card {
     transform-origin: left top;
-    transition: all 0.2s ease-in-out 0s; }
-    .catalog-parts__card.open {
+    transition: all 0.3s ease-in-out 0s; }
+    .catalog-parts__card:hover {
       transform: scale(1.25);
+      padding-right: 20px;
       z-index: 50;
-      overflow: unset; }
-      .catalog-parts__card.open button {
-        position: relative;
-        z-index: 10;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 3px;
-        padding-right: 20px; }
-        .catalog-parts__card.open button .card-parts__icon {
-          background-color: #00B341;
-          color: #fff; }
-          .catalog-parts__card.open button .card-parts__icon svg {
-            transform: rotate(90deg); }
-      .catalog-parts__card.open .card-parts__title {
+      overflow: unset;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1), 0px 0px 15px rgba(0, 0, 0, 0.1);
+      z-index: 10; }
+      .catalog-parts__card:hover button .card-parts__icon {
+        background-color: #00B341;
+        color: #fff; }
+        .catalog-parts__card:hover button .card-parts__icon svg {
+          transform: rotate(90deg); }
+      .catalog-parts__card:hover .card-parts__title {
         font-size: 12px; }
-      .catalog-parts__card.open .mega-m__submenu__submenu a {
-        font-size: 12px; }
-      .catalog-parts__card.open .mega-m {
+      .catalog-parts__card:hover .card-parts__menu {
         visibility: visible;
         opacity: 1; }
-        .catalog-parts__card.open .mega-m a {
-          font-size: 12px; }
   .catalog-parts__btn {
     display: block;
     margin: 0 auto; }
 
 .card-parts {
+  cursor: pointer;
   position: relative;
   z-index: 1;
   width: 100%;
+  padding: 20px 10px 20px 13px;
   background-color: #FFFFFF;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   overflow: hidden; }
   .card-parts button {
     display: flex;
-    height: 100%;
     width: 100%;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 10px 20px 13px; }
+    align-items: center; }
   .card-parts__img {
     position: relative;
     flex-shrink: 0;
@@ -1292,7 +1285,8 @@ picture {
   .card-parts__title {
     text-align: left;
     font-weight: 500;
-    margin-right: 10px; }
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out 0s; }
   .card-parts__icon {
     display: flex;
     align-items: center;
@@ -1303,7 +1297,67 @@ picture {
     background: #FFFFFF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
-    transition: all 0.2s ease-in-out 0s; }
+    transition: all 0.3s ease-in-out 0s; }
+    .card-parts__icon svg {
+      transition: transform 0.3s ease-in-out 0s; }
+  .card-parts__menu {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    max-height: 265px; }
+
+.menu-card {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 3px 3px;
+  transition: all 0.3s ease-in-out 0s; }
+  .menu-card a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out 0s; }
+    .menu-card a::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      width: 2px;
+      height: 25px;
+      background-color: #00B341;
+      border-radius: 3px;
+      transition: all 0.3s ease-in-out 0s; }
+  .menu-card li:hover a {
+    background-color: #EFEFEF;
+    padding-left: 35px; }
+    .menu-card li:hover a::before {
+      left: 20px; }
+  .menu-card li:hover .menu-card__icon {
+    background-color: #00B341;
+    color: #fff; }
+  .menu-card__title {
+    margin-right: 10px; }
+  .menu-card__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    color: #000;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-left: auto;
+    transition: all 0.3s ease-in-out 0s; }
 
 @media (max-width: 1440px) {
   .mega-m__submenu {
