@@ -1,4 +1,4 @@
-import SimpleBar from 'simplebar'; 'simplebar';
+import SimpleBar from 'simplebar';
 
 export default function initCustomScrollbar() {
   // const scrollbars = document.querySelectorAll('[data-simplebar]');
