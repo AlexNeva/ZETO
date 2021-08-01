@@ -398,7 +398,8 @@ picture {
     .header__logo img {
       max-width: 100%; }
   .header__search {
-    flex: 0 1 871px; }
+    flex: 0 1 871px;
+    max-width: 871px; }
   .header__cart {
     margin-left: auto; }
   .header__catalog {
