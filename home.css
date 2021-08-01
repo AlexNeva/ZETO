@@ -418,7 +418,8 @@ picture {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 10px; }
+    padding-left: 10px;
+    margin-right: 25px; }
     .header__phones li {
       flex-shrink: 0;
       position: relative;
@@ -440,8 +441,6 @@ picture {
       font-weight: 500; }
       .header__phones a span {
         font-weight: 300; }
-  .header__lang {
-    margin: 0 auto; }
   .header__burger {
     display: none;
     width: 40px;
@@ -549,7 +548,7 @@ picture {
     flex: 0 1 100%;
     padding-left: 11px;
     height: 40px;
-    min-width: 200px; }
+    min-width: 0; }
     .search-goods__input::-webkit-input-placeholder {
       font-size: 14px;
       font-weight: 300;
@@ -699,7 +698,10 @@ picture {
     display: flex;
     align-items: center;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word; }
     .search-goods .choices__list--dropdown .choices__item--selectable span:nth-child(1) {
       flex-shrink: 0;
       position: relative;
