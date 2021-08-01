@@ -24,7 +24,7 @@ export default function headerSelect() {
                 : 'data-choice-selectable'
               } data-id="${data.id}" data-value="${data.value}" ${data.groupId > 0 ? 'role="treeitem"' : 'role="option"'
               }>
-              <span><img src=${data.customProperties.icon}></span><span>${data.label}<span/>
+              <span><svg><use xlink:href=${data.customProperties.icon}></use></svg></span> <span>${data.label}<span/>
               </div>
             `);
           },

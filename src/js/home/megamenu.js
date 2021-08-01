@@ -22,12 +22,7 @@ function hoveredItems() {
           item.classList.remove('show')
         })
 
-
-
         megaSubmenus[index].classList.add('show')
-
-
-
 
 
       }

@@ -5,7 +5,7 @@ export default [
       value: 'категорию',
       label: 'категорию',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -13,7 +13,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -21,7 +21,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -29,7 +29,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -37,7 +37,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -45,7 +45,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -53,7 +53,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -61,7 +61,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -69,7 +69,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -77,7 +77,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -85,7 +85,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -93,7 +93,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -101,7 +101,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -109,7 +109,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -117,7 +117,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -125,7 +125,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -133,7 +133,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -141,7 +141,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -149,7 +149,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -157,7 +157,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -165,7 +165,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -173,7 +173,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -181,7 +181,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -189,7 +189,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -197,7 +197,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -205,7 +205,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -213,7 +213,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -221,7 +221,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -229,7 +229,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -237,7 +237,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -245,7 +245,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -253,7 +253,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -261,7 +261,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -269,7 +269,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -277,7 +277,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -285,7 +285,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -293,7 +293,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -301,7 +301,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -309,7 +309,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -317,7 +317,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -325,7 +325,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -333,7 +333,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -341,7 +341,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -349,7 +349,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -357,7 +357,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -365,7 +365,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -373,7 +373,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -381,7 +381,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -389,7 +389,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -397,7 +397,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -405,7 +405,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -413,7 +413,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -421,7 +421,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -429,7 +429,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -437,7 +437,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -445,7 +445,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -453,7 +453,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
   ],
@@ -463,7 +463,7 @@ export default [
       value: 'подкатегорию',
       label: 'подкатегорию',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -471,7 +471,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -479,7 +479,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -487,7 +487,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -495,7 +495,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -503,7 +503,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -511,7 +511,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -519,7 +519,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -527,7 +527,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -535,7 +535,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -543,7 +543,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -551,7 +551,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -559,7 +559,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -567,7 +567,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -575,7 +575,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -583,7 +583,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -591,7 +591,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -599,7 +599,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -607,7 +607,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -615,7 +615,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -623,7 +623,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -631,7 +631,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -639,7 +639,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -647,7 +647,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -655,7 +655,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -663,7 +663,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -671,7 +671,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -679,7 +679,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -687,7 +687,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -695,7 +695,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -703,7 +703,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -711,7 +711,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -719,7 +719,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -727,7 +727,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -735,7 +735,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -743,7 +743,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -751,7 +751,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -759,7 +759,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -767,7 +767,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -775,7 +775,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -783,7 +783,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -791,7 +791,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -799,7 +799,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -807,7 +807,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -815,7 +815,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -823,7 +823,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -831,7 +831,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -839,7 +839,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -847,7 +847,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -855,7 +855,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -863,7 +863,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -871,7 +871,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -879,7 +879,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -887,7 +887,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -895,7 +895,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -903,7 +903,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -911,7 +911,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
   ],
@@ -921,7 +921,7 @@ export default [
       value: 'бренд',
       label: 'бренд',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -929,7 +929,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -937,7 +937,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -945,7 +945,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -953,7 +953,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -961,7 +961,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -969,7 +969,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -977,7 +977,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -985,7 +985,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -993,7 +993,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1001,7 +1001,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1009,7 +1009,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1017,7 +1017,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1025,7 +1025,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1033,7 +1033,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1041,7 +1041,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1049,7 +1049,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1057,7 +1057,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1065,7 +1065,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1073,7 +1073,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1081,7 +1081,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1089,7 +1089,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1097,7 +1097,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1105,7 +1105,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1113,7 +1113,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1121,7 +1121,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1129,7 +1129,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1137,7 +1137,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1145,7 +1145,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1153,7 +1153,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1161,7 +1161,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1169,7 +1169,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1177,7 +1177,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1185,7 +1185,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1193,7 +1193,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1201,7 +1201,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1209,7 +1209,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1217,7 +1217,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1225,7 +1225,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1233,7 +1233,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1241,7 +1241,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1249,7 +1249,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1257,7 +1257,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1265,7 +1265,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1273,7 +1273,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1281,7 +1281,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1289,7 +1289,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1297,7 +1297,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1305,7 +1305,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1313,7 +1313,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1321,7 +1321,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1329,7 +1329,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1337,7 +1337,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1345,7 +1345,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1353,7 +1353,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1361,7 +1361,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1369,7 +1369,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
   ],
@@ -1379,7 +1379,7 @@ export default [
       value: 'серию',
       label: 'серию',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1387,7 +1387,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1395,7 +1395,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1403,7 +1403,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1411,7 +1411,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1419,7 +1419,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1427,7 +1427,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1435,7 +1435,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1443,7 +1443,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1451,7 +1451,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1459,7 +1459,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1467,7 +1467,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1475,7 +1475,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1483,7 +1483,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1491,7 +1491,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1499,7 +1499,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1507,7 +1507,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1515,7 +1515,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1523,7 +1523,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1531,7 +1531,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1539,7 +1539,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1547,7 +1547,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1555,7 +1555,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1563,7 +1563,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1571,7 +1571,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1579,7 +1579,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1587,7 +1587,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1595,7 +1595,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1603,7 +1603,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1611,7 +1611,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1619,7 +1619,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1627,7 +1627,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1635,7 +1635,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1643,7 +1643,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1651,7 +1651,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1659,7 +1659,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1667,7 +1667,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1675,7 +1675,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1683,7 +1683,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1691,7 +1691,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1699,7 +1699,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1707,7 +1707,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1715,7 +1715,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1723,7 +1723,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1731,7 +1731,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1739,7 +1739,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1747,7 +1747,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1755,7 +1755,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1763,7 +1763,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1771,7 +1771,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1779,7 +1779,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1787,7 +1787,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1795,7 +1795,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1803,7 +1803,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1811,7 +1811,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1819,7 +1819,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1827,7 +1827,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
   ],
@@ -1837,7 +1837,7 @@ export default [
       value: 'подсрию',
       label: 'подсерию',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1845,7 +1845,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1853,7 +1853,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1861,7 +1861,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1869,7 +1869,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1877,7 +1877,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1885,7 +1885,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1893,7 +1893,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1901,7 +1901,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1909,7 +1909,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1917,7 +1917,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1925,7 +1925,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1933,7 +1933,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1941,7 +1941,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -1949,7 +1949,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -1957,7 +1957,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -1965,7 +1965,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -1973,7 +1973,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -1981,7 +1981,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -1989,7 +1989,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -1997,7 +1997,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2005,7 +2005,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2013,7 +2013,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2021,7 +2021,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2029,7 +2029,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2037,7 +2037,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2045,7 +2045,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2053,7 +2053,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2061,7 +2061,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2069,7 +2069,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2077,7 +2077,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2085,7 +2085,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2093,7 +2093,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2101,7 +2101,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2109,7 +2109,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2117,7 +2117,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2125,7 +2125,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2133,7 +2133,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2141,7 +2141,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2149,7 +2149,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2157,7 +2157,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2165,7 +2165,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2173,7 +2173,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2181,7 +2181,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2189,7 +2189,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2197,7 +2197,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2205,7 +2205,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2213,7 +2213,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2221,7 +2221,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2229,7 +2229,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2237,7 +2237,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2245,7 +2245,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2253,7 +2253,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2261,7 +2261,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2269,7 +2269,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2277,7 +2277,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2285,7 +2285,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
   ],
@@ -2295,7 +2295,7 @@ export default [
       value: 'модель',
       label: 'модель',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2303,7 +2303,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2311,7 +2311,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2319,7 +2319,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2327,7 +2327,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2335,7 +2335,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2343,7 +2343,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2351,7 +2351,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2359,7 +2359,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2367,7 +2367,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2375,7 +2375,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2383,7 +2383,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2391,7 +2391,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2399,7 +2399,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2407,7 +2407,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2415,7 +2415,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2423,7 +2423,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2431,7 +2431,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2439,7 +2439,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2447,7 +2447,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2455,7 +2455,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2463,7 +2463,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2471,7 +2471,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2479,7 +2479,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2487,7 +2487,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2495,7 +2495,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2503,7 +2503,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2511,7 +2511,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2519,7 +2519,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2527,7 +2527,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2535,7 +2535,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2543,7 +2543,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2551,7 +2551,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2559,7 +2559,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2567,7 +2567,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2575,7 +2575,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2583,7 +2583,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2591,7 +2591,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2599,7 +2599,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2607,7 +2607,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2615,7 +2615,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2623,7 +2623,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2631,7 +2631,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2639,7 +2639,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2647,7 +2647,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2655,7 +2655,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2663,7 +2663,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2671,7 +2671,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2679,7 +2679,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2687,7 +2687,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
     {
@@ -2695,7 +2695,7 @@ export default [
       value: 'ноутбуки',
       label: 'ноутбуки',
       customProperties: {
-        icon: './img/select-menu-icons/notebook.svg',
+        icon: './img/sprite/sprite.svg#notebook',
       }
     },
     {
@@ -2703,7 +2703,7 @@ export default [
       value: 'планшеты',
       label: 'планшеты',
       customProperties: {
-        icon: './img/select-menu-icons/tablet.svg',
+        icon: './img/sprite/sprite.svg#tablet',
       }
     },
     {
@@ -2711,7 +2711,7 @@ export default [
       value: 'принтеры',
       label: 'принтеры',
       customProperties: {
-        icon: './img/select-menu-icons/printer.svg',
+        icon: './img/sprite/sprite.svg#printer',
       }
     },
     {
@@ -2719,7 +2719,7 @@ export default [
       value: 'мониторы',
       label: 'мониторы',
       customProperties: {
-        icon: './img/select-menu-icons/display.svg',
+        icon: './img/sprite/sprite.svg#display',
       }
     },
     {
@@ -2727,7 +2727,7 @@ export default [
       value: 'электро-мотоциклы',
       label: 'электро-мотоциклы',
       customProperties: {
-        icon: './img/select-menu-icons/el-moto.svg',
+        icon: './img/sprite/sprite.svg#el-moto',
       }
     },
     {
@@ -2735,7 +2735,7 @@ export default [
       value: 'игровые консоли',
       label: 'игровые консоли',
       customProperties: {
-        icon: './img/select-menu-icons/game-console.svg',
+        icon: './img/sprite/sprite.svg#game-console',
       }
     },
     {
@@ -2743,7 +2743,7 @@ export default [
       value: 'электро-самокаты',
       label: 'электро-самокаты',
       customProperties: {
-        icon: './img/select-menu-icons/el-scooter.svg',
+        icon: './img/sprite/sprite.svg#el-scooter',
       }
     },
   ],
