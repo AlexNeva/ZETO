@@ -1,6 +1,11 @@
 .autorization {
  
-
+  &__title {
+    text-align: center;
+    @include adaptiv-value( font-size, 40, 24, 1);
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
   &__container {
     display: flex;
     height: 100%;
@@ -22,12 +27,7 @@
     border-radius: 3px;
     padding: 30px 40px 40px 40px;
 
-    h4 {
-      text-align: center;
-      @include adaptiv-value( font-size, 40, 24, 1);
-      font-weight: 500;
-      margin-bottom: 15px;
-    }
+    
   }
   // .autorization__form
 

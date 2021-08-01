@@ -35,7 +35,7 @@ h1 {
   font-weight: 700;
 }
 
-h2 {
+.section-title {
   font-weight: 500;
   @include adaptiv-value( font-size, 40, 24, 1);
   // font-size: 40px;
