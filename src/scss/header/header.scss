@@ -97,6 +97,7 @@
     align-items: center;
     justify-content: space-between;
     padding-left: 10px;
+    margin-right: 25px;
     // margin-right: auto;
     // flex: 0 1 100%;
     
@@ -140,8 +141,8 @@
   // .header__lang
 
   &__lang {
-    margin: 0 auto;
-
+    
+   
   }
 
   // .header__info
@@ -273,7 +274,8 @@
     flex: 0 1 100%;
     padding-left: 11px;
     height: 40px;
-    min-width: 200px;
+    min-width: 0;
+   
     
 
     &::placeholder {
@@ -472,6 +474,9 @@
     align-items: center;
     display: flex;
     align-items: center;
+    word-break: break-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 
     span {
       &:nth-child(1) {
