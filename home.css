@@ -164,11 +164,11 @@ button {
 h1 {
   font-weight: 700; }
 
-h2 {
+.section-title {
   font-weight: 500;
   font-size: 40px; }
   @media (max-width: 1380px) {
-    h2 {
+    .section-title {
       font-size: calc(24px + 16 * ((100vw - 320px) / (1380 - 320))); } }
 
 picture {
@@ -1478,7 +1478,6 @@ picture {
   margin-left: auto; }
 
 .search-parts {
-  padding-top: 40px;
   position: relative;
   background-color: #323232;
   color: #fff;
@@ -1500,22 +1499,9 @@ picture {
     background-image: url(./static/bg-right.png); }
   .search-parts__container {
     position: relative;
-    z-index: 5; }
-    .search-parts__container::after {
-      content: '';
-      position: absolute;
-      z-index: -1;
-      bottom: -37px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 116px;
-      height: 116px;
-      border-radius: 50%;
-      background-color: inherit;
-      background-image: url(./static/result.svg);
-      background-position: left 50% bottom 18px;
-      background-repeat: no-repeat;
-      background-color: #323232; }
+    z-index: 5;
+    padding-top: 40px;
+    padding-bottom: 50px; }
   .search-parts__title {
     text-align: center;
     color: #fff;
@@ -1576,15 +1562,42 @@ picture {
     display: block;
     margin-bottom: 5px; }
   .search-parts__result {
-    text-align: center;
-    margin-top: 25px;
-    font-weight: 500;
+    background-image: url(./static/result.svg);
+    padding-top: 55px;
     font-size: 16px;
-    padding-bottom: 5px; }
+    text-align: center;
+    font-weight: 500;
+    position: absolute;
+    z-index: -1;
+    bottom: -39px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background-color: #323232;
+    background-repeat: no-repeat;
+    background-position: left 50% bottom 18px; }
 
 @media (max-width: 768px) {
   .search-parts__form {
     gap: 17px; } }
+
+@media (max-width: 576px) {
+  .search-parts {
+    margin-bottom: 60px; }
+    .search-parts::before, .search-parts::after {
+      content: '';
+      position: absolute;
+      top: 7px;
+      width: 31%;
+      height: 72px;
+      background-repeat: repeat-x; }
+    .search-parts__container {
+      padding-top: 35px;
+      padding-bottom: 35px; }
+    .search-parts__result {
+      bottom: -62px; } }
 
 .product {
   margin-bottom: 40px; }
@@ -1851,11 +1864,12 @@ picture {
 
 .footer {
   font-size: 16px; }
-  .footer h3 {
+  .footer__title {
     font-size: inherit;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    flex-shrink: 0; }
   .footer__nav li:not(:last-child) {
     margin-bottom: 15px; }
   .footer__nav li:hover {
@@ -1925,7 +1939,7 @@ picture {
   padding-bottom: 20px;
   background-color: #404040;
   color: #fff; }
-  .subscribe h3 {
+  .subscribe .footer__title {
     margin-bottom: 0;
     margin-right: 35px;
     flex-shrink: 0; }
@@ -2049,7 +2063,7 @@ picture {
     background-image: url(./static/popup-close.svg); }
   .catalog__lang {
     color: #fff; }
-  .catalog h4 {
+  .catalog__title {
     font-weight: 500;
     text-transform: uppercase;
     padding: 10px 10px;
@@ -2091,6 +2105,8 @@ picture {
       transform: translateY(-50%);
       width: 30px;
       height: 100%; }
+  .catalog__menu .catalog__title {
+    padding-bottom: 0; }
   .catalog .mega-m {
     position: relative;
     visibility: visible;
@@ -2158,6 +2174,15 @@ picture {
     border-radius: 3px;
     transition: all 0.2s ease-in-out 0s; }
 
+.autorization__title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 15px; }
+  @media (max-width: 1380px) {
+    .autorization__title {
+      font-size: calc(24px + 16 * ((100vw - 320px) / (1380 - 320))); } }
+
 .autorization__container {
   display: flex;
   height: 100%; }
@@ -2176,14 +2201,6 @@ picture {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
   padding: 30px 40px 40px 40px; }
-  .autorization__body h4 {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 15px; }
-    @media (max-width: 1380px) {
-      .autorization__body h4 {
-        font-size: calc(24px + 16 * ((100vw - 320px) / (1380 - 320))); } }
 
 .autorization__form button {
   width: 100%; }
