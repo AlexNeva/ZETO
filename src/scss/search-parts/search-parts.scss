@@ -1,4 +1,9 @@
 .search-parts {
+
+  select {
+    height: 40px;
+    width: 100%;
+  }
   
   position: relative;
   background-color: #323232;
@@ -183,6 +188,20 @@
 
     &__result {
       bottom: -62px;
+    }
+
+    &__form {
+     
+    }
+
+  }
+}
+
+@media (max-width: 450px) {
+  .search-parts {
+
+    &__form {
+      grid-template-columns: 1fr;
     }
 
   }

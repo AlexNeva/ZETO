@@ -33,8 +33,9 @@
     // .accordion__item
   
     &__item {
-
+      
       &.open {
+        height: 32vh;
         .accordion__control {
           background: #00B341;
           color: #fff;
@@ -111,6 +112,7 @@
 
   &__menu {
     max-height: 32vh;
+    // overflow: hidden;
   }
 }
 .menu-mob {

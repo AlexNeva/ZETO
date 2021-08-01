@@ -1,4 +1,5 @@
 import '../scss/home.scss';
+import initAccordions from './home/accordion.js'
 import header from './home/header.js'
 import initSwipers from './home/swiper-cards.js'
 import initSearchPartsSelects from './home/search-parts.js'
@@ -6,7 +7,6 @@ import headerSelect from './home/header-select'
 import megamenu from './home/megamenu.js'
 import popup from './home/popups.js'
 import dataDa from './home/dynamicAdapt.js'
-import initAccordions from './home/accordion.js'
 
 
 dataDa();

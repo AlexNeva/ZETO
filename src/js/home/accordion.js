@@ -5,6 +5,7 @@ export default function initAccordions() {
     const accordionItems = accordion.querySelectorAll('.accordion__item');
 
     accordionItems.forEach(item => {
+
       const control = item.querySelector('.accordion__control');
       const content = item.querySelector('.accordion__content');
 
@@ -14,7 +15,9 @@ export default function initAccordions() {
         content.style.maxHeight = content.scrollHeight + 'px';
       }
 
+
       item.addEventListener('click', (e) => {
+        item.style.height = 'unset';
         if (e.target.closest('.accordion__control')) {
           const self = e.currentTarget;
 
