@@ -480,39 +480,6 @@ picture {
   font-size: inherit;
   font-weight: inherit;
   color: #fff; }
-  .nav a::before {
-    content: '';
-    flex-shrink: 0;
-    width: 23px;
-    height: 23px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    margin-right: 10px;
-    transition: transform 0.2s ease-in-out 0s; }
-
-.nav li:nth-child(1) a::before {
-  background-image: url(./static/menu-icon-1.svg); }
-
-.nav li:nth-child(2) a::before {
-  background-image: url(./static/menu-icon-2.svg); }
-
-.nav li:nth-child(3) a::before {
-  background-image: url(./static/menu-icon-3.svg); }
-
-.nav li:nth-child(4) a::before {
-  background-image: url(./static/menu-icon-4.svg); }
-
-.nav li:nth-child(5) a::before {
-  background-image: url(./static/menu-icon-5.svg); }
-
-.nav li:nth-child(6) a::before {
-  background-image: url(./static/menu-icon-6.svg); }
-
-.nav li:nth-child(7) a::before {
-  background-image: url(./static/menu-icon-7.svg); }
-
-.nav li:nth-child(8) a::before {
-  background-image: url(./static/menu-icon-8.svg); }
 
 .nav li {
   flex-shrink: 0;
@@ -520,8 +487,24 @@ picture {
   font-weight: 500; }
   .nav li:not(:last-child) {
     margin-right: 15px; }
-  .nav li:hover a::before {
+  .nav li:hover .nav__img {
     transform: scale(1.2); }
+
+.nav__img {
+  position: relative;
+  flex-shrink: 0;
+  width: 23px;
+  height: 23px;
+  color: #E8712D;
+  margin-right: 10px;
+  transition: transform 0.2s ease-in-out 0s; }
+  .nav__img svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain; }
 
 .search-goods {
   position: relative;
@@ -715,8 +698,9 @@ picture {
       width: 22px;
       height: 20px;
       margin-right: 8px;
-      flex-shrink: 0; }
-      .search-goods .choices__list--dropdown .choices__item--selectable span:nth-child(1) img {
+      flex-shrink: 0;
+      color: #00B341; }
+      .search-goods .choices__list--dropdown .choices__item--selectable span:nth-child(1) svg {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -801,20 +785,6 @@ picture {
         background-repeat: no-repeat;
         background-position: 50% 50%;
         margin-right: 8px; }
-    .submenu-search__menu ul li:nth-child(1) a::before {
-      background-image: url(./static/submenu-ic-1.svg); }
-    .submenu-search__menu ul li:nth-child(2) a::before {
-      background-image: url(./static/submenu-ic-2.svg); }
-    .submenu-search__menu ul li:nth-child(3) a::before {
-      background-image: url(./static/submenu-ic-3.svg); }
-    .submenu-search__menu ul li:nth-child(4) a::before {
-      background-image: url(./static/submenu-ic-4.svg); }
-    .submenu-search__menu ul li:nth-child(5) a::before {
-      background-image: url(./static/submenu-ic-5.svg); }
-    .submenu-search__menu ul li:nth-child(6) a::before {
-      background-image: url(./static/submenu-ic-6.svg); }
-    .submenu-search__menu ul li:nth-child(7) a::before {
-      background-image: url(./static/submenu-ic-7.svg); }
   .submenu-search__close {
     display: block;
     width: 100%;
@@ -1309,8 +1279,9 @@ picture {
     flex-shrink: 0;
     width: 52px;
     height: 50px;
-    margin-right: 10px; }
-    .card-parts__img img {
+    margin-right: 10px;
+    color: #00B341; }
+    .card-parts__img svg {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -1478,8 +1449,9 @@ picture {
   position: relative;
   flex-shrink: 0;
   width: 26px;
-  height: 25px; }
-  .menu-mob__img img {
+  height: 25px;
+  color: #00B341; }
+  .menu-mob__img svg {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2139,8 +2111,9 @@ picture {
       position: relative;
       flex-shrink: 0;
       width: 26px;
-      height: 25px; }
-      .catalog .mega-m__img img {
+      height: 25px;
+      color: #00B341; }
+      .catalog .mega-m__img svg {
         position: absolute;
         top: 50%;
         left: 50%;
