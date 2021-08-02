@@ -9,10 +9,10 @@ import initSearchPartsSelects from './home/search-parts.js'
 import headerSelect from './home/header-select'
 import megamenu from './home/megamenu.js'
 import popup from './home/popups.js'
-// import dataDa from './home/dynamicAdapt.js'
+import dataDa from './home/dynamicAdapt.js'
 
 
-// dataDa();
+dataDa();
 initSwipers();
 initSearchPartsSelects();
 megamenu.hoveredItems();
