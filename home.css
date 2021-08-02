@@ -1394,20 +1394,20 @@ picture {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
     border-radius: 3px;
-    font-weight: 500; }
-    .catalog-parts-mob .accordion__item.open {
-      height: 32vh; }
-      .catalog-parts-mob .accordion__item.open .accordion__control {
-        background: #00B341;
-        color: #fff;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0); }
-      .catalog-parts-mob .accordion__item.open .accordion__icon {
-        background-color: #2ED26A;
-        color: #fff; }
-        .catalog-parts-mob .accordion__item.open .accordion__icon svg {
-          transform: rotate(90deg); }
-      .catalog-parts-mob .accordion__item.open .accordion__content {
-        padding: 0; }
+    font-weight: 500;
+    height: 430px;
+    overflow: hidden; }
+    .catalog-parts-mob .accordion__item.open .accordion__control {
+      background: #00B341;
+      color: #fff;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0); }
+    .catalog-parts-mob .accordion__item.open .accordion__icon {
+      background-color: #2ED26A;
+      color: #fff; }
+      .catalog-parts-mob .accordion__item.open .accordion__icon svg {
+        transform: rotate(90deg); }
+    .catalog-parts-mob .accordion__item.open .accordion__content {
+      padding: 0; }
     .catalog-parts-mob .accordion__control {
       position: relative;
       z-index: 5;
