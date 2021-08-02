@@ -12,7 +12,7 @@
   <link rel="preload" href="fonts/Roboto-Light.woff2" as="font" type="font/woff2" crossorigin>
 
   <title>ZETO</title>
-<link href="home.css" rel="stylesheet"></head>
+<link href="home.min.css" rel="stylesheet"></head>
 
 <body>
   <div class="wrapper">
@@ -3017,6 +3017,12 @@
     </div>
   </div>
   
-<script type="text/javascript" src="./js/bundle.js"></script></body>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+      const element = document.createElement("script");
+      element.src = "./js/bundle.js";
+      document.body.appendChild(element);
+    });
+  </script>
 
 </html>
