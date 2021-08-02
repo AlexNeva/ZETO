@@ -14,6 +14,7 @@ export default function initSwipers() {
       // Optional parameters
       // loop: true,
       slidesPerView: 2,
+
       // width: 'auto',
 
       // spaceBetween: 25,

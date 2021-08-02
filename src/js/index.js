@@ -1,4 +1,7 @@
 import '../scss/home.scss';
+import 'lazysizes';
+// import a plugin
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import initAccordions from './home/accordion.js'
 import header from './home/header.js'
 import initSwipers from './home/swiper-cards.js'

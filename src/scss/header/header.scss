@@ -153,6 +153,7 @@
 
   &__burger {
     display: none;
+    flex-shrink: 0;
     width: 40px;
     height: 25px;
     margin-right: 25px !important;
@@ -233,6 +234,8 @@
 .search-goods {
   position: relative;
   display: flex;
+  // display: none;
+
   // align-items: center;
   justify-content: space-between;
   border-radius: 3px;
