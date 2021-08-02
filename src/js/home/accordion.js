@@ -17,10 +17,10 @@ export default function initAccordions() {
 
 
       item.addEventListener('click', (e) => {
-        item.style.height = 'unset';
         if (e.target.closest('.accordion__control')) {
           const self = e.currentTarget;
-
+          accordion.style.height = 'auto';
+          accordion.style.overflow = 'auto';
           self.classList.toggle('open');
 
           if (self.classList.contains('open')) {
