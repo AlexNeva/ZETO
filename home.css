@@ -1405,8 +1405,7 @@ picture {
       .catalog-parts-mob .accordion__item.open .accordion__icon svg {
         transform: rotate(90deg); }
     .catalog-parts-mob .accordion__item.open .accordion__content {
-      padding: 0;
-      max-height: 32vh; }
+      padding: 0; }
     .catalog-parts-mob .accordion__control {
       position: relative;
       z-index: 5;
@@ -1437,6 +1436,9 @@ picture {
     .catalog-parts-mob .accordion__content {
       padding: 0;
       position: relative; }
+
+.catalog-parts-mob__menu {
+  height: 32vh; }
 
 .menu-mob__item {
   border-bottom: 1px solid #EFEFEF; }
