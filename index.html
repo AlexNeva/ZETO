@@ -2462,8 +2462,16 @@
 
             </div>
 
-            <button class="cards-swiper-prev"></button>
-            <button class="cards-swiper-next"></button>
+            <button class="cards-swiper-prev">
+              <svg>
+                <use xlink:href="img/sprite/sprite.svg#arrow-prev"></use>
+              </svg>
+            </button>
+            <button class="cards-swiper-next">
+              <svg>
+                <use xlink:href="img/sprite/sprite.svg#arrow-next"></use>
+              </svg>
+            </button>
 
           </div>
           <button class="catalog-parts__btn btn--more">
@@ -2807,8 +2815,16 @@
 
             </div>
 
-            <button class="cards-swiper-prev"></button>
-            <button class="cards-swiper-next"></button>
+            <button class="cards-swiper-prev">
+              <svg>
+                <use xlink:href="img/sprite/sprite.svg#arrow-prev"></use>
+              </svg>
+            </button>
+            <button class="cards-swiper-next">
+              <svg>
+                <use xlink:href="img/sprite/sprite.svg#arrow-next"></use>
+              </svg>
+            </button>
 
           </div>
           <button class="catalog-parts__btn btn--more">
@@ -3153,8 +3169,16 @@
 
             </div>
 
-            <button class="cards-swiper-prev"></button>
-            <button class="cards-swiper-next"></button>
+            <button class="cards-swiper-prev">
+              <svg>
+                <use xlink:href="img/sprite/sprite.svg#arrow-prev"></use>
+              </svg>
+            </button>
+            <button class="cards-swiper-next">
+              <svg>
+                <use xlink:href="img/sprite/sprite.svg#arrow-next"></use>
+              </svg>
+            </button>
 
           </div>
 
@@ -3190,10 +3214,30 @@
                 У нас есть все для ноутбуков, такие комплектующие как матрицы, аккумуляторы, клавиатуры, зарядные
                 устройства, жесткие диски, память и многое другое.
               </p>
-              <button class="about__text-more">
-                Весь текст
-              </button>
+              <p>
+                Интернет-магазин Zeto является крупнейшим каталогом комплектующих для ноутбуков в Украине и не имеет
+                аналогов в мире, а также лидером на рынке оказания услуг ремонта ноутбуков, благодаря квалификации наших
+                сервис-менеджеров и слаженной работе команды. О чем свидетельствуют многие положительные отзывы от наших
+                клиентов.
+              </p>
+              <p>
+                Наша компания предоставляет широкий спектр услуг по ремонту ноутбуков и их модернизации. У нас вы
+                сможете
+                купить и заменить отдельные комплектующие для ноутбуков, либо просто сделать заказ на запчасти для
+                ноутбуков с доставкой на дом или в офис.
+              </p>
+              <p>
+                У нас есть все для ноутбуков, такие комплектующие как матрицы, аккумуляторы, клавиатуры, зарядные
+                устройства, жесткие диски, память и многое другое.
+              </p>
+
             </div>
+            <button class="about__text-more">
+              Весь текст
+              <svg>
+                <use xlink:href="img/sprite/sprite.svg#show-more-arrow"></use>
+              </svg>
+            </button>
 
           </div>
         </div>
@@ -3240,7 +3284,7 @@
             <div class="where-buy__body">
               <div class="where-buy__item">
                 <p class="where-buy__address">
-                  г. Киев, ул.Большая Васильковская 143/2
+                  <a href="#" target="_blank">г. Киев, ул.Большая Васильковская 143/2</a>
                 </p>
                 <p class="where-buy__time">
                   Пн - Пт: 9:00 - 18:00, Сб: 9:00 - 17:00
@@ -3251,7 +3295,7 @@
               </div>
               <div class="where-buy__item">
                 <p class="where-buy__address">
-                  г. Одесса, ул.Среднефонтанская 19г, ТЦ "Кристалл" этаж 1, магазин №27
+                  <a href="#" target="_blank">г. Одесса, ул.Среднефонтанская 19г, ТЦ "Кристалл" этаж 1, магазин №27</a>
                 </p>
                 <p class="where-buy__time">
                   Пн - Пт: 9:00 - 18:00, Сб: 9:00 - 17:00
@@ -3840,7 +3884,13 @@
       </div>
     </div>
   </div>
-  
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+      const element = document.createElement("script");
+      element.src = "./js/bundle.js";
+      document.body.appendChild(element);
+    });
+  </script>
 <script type="text/javascript" src="./js/bundle.js"></script></body>
 
 </html>
