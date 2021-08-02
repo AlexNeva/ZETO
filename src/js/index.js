@@ -10,6 +10,7 @@ import headerSelect from './home/header-select'
 import megamenu from './home/megamenu.js'
 import popup from './home/popups.js'
 import dataDa from './home/dynamicAdapt.js'
+import showMoreText from './home/show-more-text.js'
 
 
 dataDa();
@@ -22,6 +23,7 @@ header.openSearch();
 popup.openPopup();
 popup.closePopup();
 headerSelect();
+showMoreText()
 console.log('Works!');
 
 // закрытие всех окон при клике вне

@@ -64,6 +64,12 @@
     a {
       font-weight: 500;
       color: #00B341;
+      transition: color 0.2s linear 0s;
+
+      &:hover {
+        color: $main-orange;
+        
+      }
     }
   }
 

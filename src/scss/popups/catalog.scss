@@ -43,6 +43,11 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-image: url('../img/popups/popup-close.svg');
+    transition: background-color 0.2s linear 0s;
+
+    &:hover {
+      background-color: $main-orange;
+    }
   }
 
 

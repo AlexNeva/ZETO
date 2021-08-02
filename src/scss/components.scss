@@ -5,25 +5,24 @@
   text-transform: uppercase;
   padding: 13px 16px;
   color: #fff;
-
+  transition: background-color 0.2s linear 0s;
 }
 
 .btn--green {
   border-radius: 3px;
-  background-color: #00B341;
-  transition: background-color 0.3s ease-in-out 0s;
+  background-color: $main-green;
+  
 
   &:hover {
-    background-color: #177e3d;
+    background-color: $main-orange;
   }
 }
 .btn--orange {
   background-color: #E8712D;
-  transition: background-color 0.3s ease-in-out 0s;
 
 
   &:hover {
-    background-color: #a5450e;
+    background-color: $main-green;
   }
 }
 
@@ -39,6 +38,8 @@
   width: 206px;
   padding: 12px;
   text-align: center;
+  transition: color 0.2s linear 0s,
+              border-color 0.2s linear 0s;
 
   &::before, &::after {
     content: '';
@@ -63,6 +64,11 @@
   }
   &::after {
     left: 100%;
+  }
+
+  &:hover {
+    color: $main-orange;
+    border-color: $main-orange;
   }
 }
 

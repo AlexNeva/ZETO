@@ -47,7 +47,6 @@
 
   &__container {
     position: relative;
-   
     z-index: 10;
   }
 
@@ -60,15 +59,47 @@
   // .about__descr
 
   &__descr {
+    position: relative;
     padding: 25px 30px 19px 30px;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     background-color: #404040;
+    height: 218px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out 0s;
+    will-change: height;
 
     p {
       &:not(:last-child) {
         margin-bottom: 10px;
+      }
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 200px;
+      background-image: linear-gradient(to top, #404040, transparent);
+      box-shadow: inset 0 0 50px #404040;
+      transition: opacity 0.3s linear 0.3s;
+
+    }
+
+    &.open {
+      &::after {
+        opacity: 0;
+        
+      }
+
+      & + .about__text-more {
+        svg {
+          transform-origin: 50% 50%;
+          transform:translateX(-50%) rotate(180deg);
+        }
       }
     }
   }
@@ -88,10 +119,23 @@
     width: 116px;
     height: 116px;
     border-radius: 50%;
-    background-color: inherit;
-    background-image: url('../img/about/more-arrow.svg');
-    background-repeat: no-repeat;
-    background-position: left 50% bottom 18px;
+    background-color: #404040;
+    color: #fff;
+    transition: color 0.2s linear 0s;
+
+    &:hover {
+      color: $main-orange;
+    }
+
+    svg {
+      position: absolute;
+      bottom: 18px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 12px;
+      height: 8px;
+      transition: transform 0.3s ease-in-out 0s;
+    }
   }
 }
 
