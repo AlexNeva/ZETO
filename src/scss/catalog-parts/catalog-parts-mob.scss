@@ -25,8 +25,8 @@
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     font-weight: 500;
-    height: 430px;
-    overflow: hidden;
+    // height: 430px;
+    // overflow: hidden;
     // .accordion__list
   
     &__list {
@@ -53,6 +53,7 @@
         }
         .accordion__content {
           padding: 0;
+          max-height: 32vh;
         }
       }
     }
@@ -103,17 +104,19 @@
   
     &__content {
       padding: 0;
+      position: relative;
     }
   }
 }
 
 
 .catalog-parts-mob {
+  
 
   // .catalog-parts-mob__menu
 
   &__menu {
-    max-height: 32vh;
+    
     // overflow: hidden;
   }
 }

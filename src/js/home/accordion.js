@@ -12,7 +12,9 @@ export default function initAccordions() {
       if (item.classList.contains('open')) {
         control.setAttribute('aria-expanded', true);
         content.setAttribute('aria-hidden', false);
-        content.style.maxHeight = content.scrollHeight + 'px';
+        // content.style.maxHeight = content.scrollHeight + 'px';
+        content.style.maxHeight = 320 + 'px';
+
       }
 
 
@@ -26,7 +28,9 @@ export default function initAccordions() {
           if (self.classList.contains('open')) {
             control.setAttribute('aria-expanded', true);
             content.setAttribute('aria-hidden', false);
-            content.style.maxHeight = content.scrollHeight + 'px';
+            // content.style.maxHeight = content.scrollHeight + 'px';
+            content.style.maxHeight = 320 + 'px';
+
           } else {
             control.setAttribute('aria-expanded', false);
             content.setAttribute('aria-hidden', true);

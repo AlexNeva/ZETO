@@ -13,6 +13,7 @@ import dataDa from './home/dynamicAdapt.js'
 
 
 dataDa();
+initAccordions();
 initSwipers();
 initSearchPartsSelects();
 megamenu.hoveredItems();
@@ -20,7 +21,6 @@ header.actionCart('open');
 header.openSearch();
 popup.openPopup();
 popup.closePopup();
-initAccordions();
 headerSelect();
 console.log('Works!');
 
