@@ -2,6 +2,9 @@ export default function initAccordions() {
   const accordions = document.querySelectorAll('.accordion');
 
   accordions.forEach(accordion => {
+    accordion.style.maxHeight = null;
+    accordion.style.overflow = null;
+
     const accordionItems = accordion.querySelectorAll('.accordion__item');
 
     accordionItems.forEach(item => {

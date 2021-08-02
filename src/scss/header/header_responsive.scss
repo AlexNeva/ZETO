@@ -55,7 +55,12 @@
     }
 
     &__search {
-      
+      position: fixed;
+      opacity: 0;
+      top: 0;
+      right: 10px;
+      left: 10px;
+      max-width: 100%;
     }
 
     
@@ -109,7 +114,7 @@
       height: 30px;
     }
 
-    
+    &__phones {margin-right: 0;}
   }
 
   

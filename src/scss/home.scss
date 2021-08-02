@@ -3,10 +3,10 @@
 @import "mixins";
 @import "fonts";
 @import "base";
-@import "components";
 @import "../../node_modules/simplebar/dist/simplebar.min.css";
 @import "../../node_modules/choices.js/public/assets/styles/choices.min.css";
 @import "../../node_modules/swiper/swiper-bundle.min.css";
+@import "components";
 @import "header/header";
 @import "header/header_responsive";
 @import "catalog-parts/catalog-parts";

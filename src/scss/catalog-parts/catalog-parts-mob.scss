@@ -25,8 +25,8 @@
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
     border-radius: 3px;
     font-weight: 500;
-    // height: 430px;
-    // overflow: hidden;
+    
+    
     // .accordion__list
   
     &__list {
@@ -35,7 +35,7 @@
     // .accordion__item
   
     &__item {
-      
+      // height: 36px;
       &.open {
        
         .accordion__control {
@@ -71,7 +71,7 @@
       background-color: #FFFFFF;
       box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
       transition: all 0.3s ease-in-out 0s;
-      height: 36px;
+      
     }
   
     // .accordion__title
