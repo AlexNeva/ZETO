@@ -46,6 +46,7 @@ window.initAll = () => {
   }
 
 }
+window.initAll();
 
 
 
