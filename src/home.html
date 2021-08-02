@@ -3257,10 +3257,11 @@
     document.addEventListener('DOMContentLoaded', () => {
       const element = document.createElement("script");
       element.src = "./js/bundle.js";
-      document.body.appendChild(element);
+      setTimeout(() => {
+        document.body.appendChild(element);
+      }, 500)
     });
   </script>
 </body>
-
 
 </html>
