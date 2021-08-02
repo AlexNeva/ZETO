@@ -12,39 +12,41 @@ import popup from './home/popups.js'
 import dataDa from './home/dynamicAdapt.js'
 import showMoreText from './home/show-more-text.js'
 
+window.initAll = () => {
+  dataDa();
+  initAccordions();
+  initSwipers();
+  initSearchPartsSelects();
+  megamenu.hoveredItems();
+  header.actionCart('open');
+  header.openSearch();
+  popup.openPopup();
+  popup.closePopup();
+  headerSelect();
+  showMoreText()
 
-dataDa();
-initAccordions();
-initSwipers();
-initSearchPartsSelects();
-megamenu.hoveredItems();
-header.actionCart('open');
-header.openSearch();
-popup.openPopup();
-popup.closePopup();
-headerSelect();
-showMoreText()
-console.log('Works!');
+  // закрытие всех окон при клике вне
 
-// закрытие всех окон при клике вне
-
-window.onclick = (e) => {
+  window.onclick = (e) => {
 
 
-  if (!e.target.closest('.cart')) {
-    header.actionCart('close');
+    if (!e.target.closest('.cart')) {
+      header.actionCart('close');
+    }
+    if (!e.target.closest('.header__search')) {
+      document.querySelector('.search-goods').classList.remove('open')
+    }
+    if (!e.target.closest('.catalog-parts__card')) {
+      document.querySelectorAll('.catalog-parts__card').forEach(el => {
+        el.classList.remove('open')
+      })
+    }
+
+
   }
-  if (!e.target.closest('.header__search')) {
-    document.querySelector('.search-goods').classList.remove('open')
-  }
-  if (!e.target.closest('.catalog-parts__card')) {
-    document.querySelectorAll('.catalog-parts__card').forEach(el => {
-      el.classList.remove('open')
-    })
-  }
-
 
 }
+
 
 
 
