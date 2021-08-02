@@ -111,13 +111,6 @@ h6 {
 @font-face {
   font-family: "Roboto";
   font-display: swap;
-  src: url(./fonts/Roboto-Bold.woff2) format("woff2"), url(./fonts/Roboto-Bold.woff) format("woff");
-  font-weight: 700;
-  font-style: normal; }
-
-@font-face {
-  font-family: "Roboto";
-  font-display: swap;
   src: url(./fonts/Roboto-Medium.woff2) format("woff2"), url(./fonts/Roboto-Medium.woff) format("woff");
   font-weight: 500;
   font-style: normal; }
@@ -127,6 +120,13 @@ h6 {
   font-display: swap;
   src: url(./fonts/Roboto-Regular.woff2) format("woff2"), url(./fonts/Roboto-Regular.woff) format("woff");
   font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url(./fonts/Roboto-Bold.woff2) format("woff2"), url(./fonts/Roboto-Bold.woff) format("woff");
+  font-weight: 700;
   font-style: normal; }
 
 @font-face {
@@ -1417,8 +1417,10 @@ picture {
       .catalog-parts-mob .accordion__item.open .accordion__icon svg {
         transform: rotate(90deg); }
     .catalog-parts-mob .accordion__item.open .accordion__content {
-      padding: 0; }
+      padding: 0;
+      max-height: 32vh; }
     .catalog-parts-mob .accordion__control {
+      height: 36px;
       position: relative;
       z-index: 5;
       border-radius: 3px;
@@ -1450,7 +1452,7 @@ picture {
       position: relative; }
 
 .catalog-parts-mob__menu {
-  height: 32vh; }
+  max-height: 32vh; }
 
 .menu-mob__item {
   border-bottom: 1px solid #EFEFEF; }
