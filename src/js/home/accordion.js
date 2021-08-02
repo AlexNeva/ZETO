@@ -12,24 +12,19 @@ export default function initAccordions() {
       if (item.classList.contains('open')) {
         control.setAttribute('aria-expanded', true);
         content.setAttribute('aria-hidden', false);
-        // content.style.maxHeight = content.scrollHeight + 'px';
-        content.style.maxHeight = 320 + 'px';
-
+        content.style.maxHeight = content.scrollHeight + 'px';
       }
 
 
       item.addEventListener('click', (e) => {
         if (e.target.closest('.accordion__control')) {
           const self = e.currentTarget;
-          accordion.style.height = 'auto';
-          accordion.style.overflow = 'auto';
           self.classList.toggle('open');
 
           if (self.classList.contains('open')) {
             control.setAttribute('aria-expanded', true);
             content.setAttribute('aria-hidden', false);
-            // content.style.maxHeight = content.scrollHeight + 'px';
-            content.style.maxHeight = 320 + 'px';
+            content.style.maxHeight = content.scrollHeight + 'px';
 
           } else {
             control.setAttribute('aria-expanded', false);

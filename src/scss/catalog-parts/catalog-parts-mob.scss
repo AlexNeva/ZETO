@@ -53,7 +53,7 @@
         }
         .accordion__content {
           padding: 0;
-          max-height: 32vh;
+          
         }
       }
     }
@@ -116,7 +116,7 @@
   // .catalog-parts-mob__menu
 
   &__menu {
-    
+    height: 32vh;
     // overflow: hidden;
   }
 }
