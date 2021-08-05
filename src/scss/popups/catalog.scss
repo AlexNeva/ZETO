@@ -40,10 +40,16 @@
     height: 46px;
     border-radius: 50%;
     background-color: #00B341;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-image: url('../img/popups/popup-close.svg');
-    transition: background-color 0.2s linear 0s;
+    color: #fff;
+    
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 18px;
+      height: 18px;
+    }
 
     &:hover {
       background-color: $main-orange;

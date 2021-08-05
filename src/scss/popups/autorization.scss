@@ -83,9 +83,17 @@
     height: 116px;
     border-radius: 50%;
     background-color: #323232;
-    background-position: 50% 20px;
-    background-repeat: no-repeat;
-    background-image: url('../img/popups/auth-close.svg');
+    color: #fff;
+    
+    svg {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translate(-50%, 0);
+
+      width: 18px;
+      height: 18px;
+    }
   } 
 }
 

@@ -45,8 +45,17 @@
   // .header__signin
 
   &__signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     width: 191px;
+
+    svg {
+      width: 17px;
+      height: 22px;
+      margin-right: 10px;
+    }
   }
 
   // .header__logo
@@ -80,15 +89,10 @@
     align-items: center;
     justify-content: center;
     
-    &::before {
-      content: '';
-      flex-shrink: 0;
+    svg {
       width: 21px;
       height: 12px;
-      background-image: url('../img/header/catalog-icon.svg');
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-      margin-right: 11px;
+      margin-right: 10px;
     }
   }
 
@@ -173,14 +177,21 @@
   }
 
   .search-trigger {
+    position: relative;
     display: none;
     width: 40px;
     height: 40px;
     margin-right: 10px !important;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 50% auto;
-    background-image: url('../img/header/search-icon.svg');
+    
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 14px;
+      height: 145px;
+    }
     
   }
 }
@@ -270,9 +281,8 @@
       flex-shrink: 0;
       width: 6px;
       height: 4px;
-      background-image: url('../img/header/select-goods-arrow.svg');
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
+     
+      background: url('../img/sprite/css-sprites.png') -107px -126px no-repeat;
       margin-left: 10px;
     }
 
@@ -303,13 +313,28 @@
   // .search-goods__btn
 
   &__btn {
+    position: relative;
     flex-shrink: 0;
     width: 40px;
     height: 40px;
-    background-image: url('../img/header/search-icon.svg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 50% auto;
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 19px;
+      height: 19px;
+
+      &:nth-child(1) {
+        display: block;
+      }
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+    
+
   }
 
   &__categories {
@@ -340,7 +365,7 @@
       flex-shrink: 0;
       width: 6px;
       height: 4px;
-      background-image: url('../img/header/select-goods-arrow-black.svg');
+      
       background-repeat: no-repeat;
       background-position: 50% 50%;
       margin-left: 4px;
@@ -361,8 +386,15 @@
       display: none;
     }
     .search-goods__btn {
-      background-image: url('../img/header/search-icon-close.svg');
-
+      svg {
+        &:nth-child(1) {
+          display: none;
+        }
+        &:nth-child(2) {
+          display: block;
+        }
+      }
+      
     }
   }
 
@@ -426,7 +458,7 @@
       right: 10px;
       width: 6px;
       height: 4px;
-      background: url('../img/header/select-goods-arrow-black.svg') 50% 50% no-repeat;
+      background: url('../img/sprite/css-sprites.png') -81px -126px no-repeat;
     }
   }
   .choices[data-type*=select-one] .choices__inner {
@@ -581,7 +613,7 @@
       top: 0;
       width: 30px;
       height: 100%;
-      background: url('../img/header/submenu-search.svg') 50% 50% no-repeat;
+      
     }
   }
 
@@ -628,7 +660,6 @@
     background-color: #ECEDEC;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-image: url('../img/header/sub-menu-up.svg');
   }
 }
 
@@ -642,14 +673,20 @@
   // .cart__btn
 
   &__btn {
+    position: relative;
     flex-shrink: 0;
     width: 40px;
     height: 40px;
-    // margin-left: 10px;
-    background-image: url('../img/header/cart-icon.svg');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 50% auto;
+    
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+      height: 50%;
+    }
   }
 
   &__body {
@@ -875,6 +912,7 @@
               background-image: url('../img/header-info/icon-#{$i}.svg');
             }
           }
+
         }
       }
     }
@@ -1073,6 +1111,7 @@
 
 
   &__delete {
+    position: relative;
     flex-shrink: 0;
     margin-left: auto;
     width: 30px;
@@ -1080,7 +1119,23 @@
     background-color: #FFFFFF;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
-    background: url('../img/cart/delete-icon.svg') 50% 50% no-repeat;
+    color: #000;
+    transition: background-color 0.2s linear 0s,
+                color 0.2s linear 0s;
+
+    
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 14px;
+      height: 17px;
+    }
+
+    &:hover {
+      color: red;
+    }
   }
 
   &__footer {
